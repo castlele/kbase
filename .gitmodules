@@ -1,0 +1,3 @@
+[submodule "computer_science/algoes"]
+	path = computer_science/algoes
+	url = git@github.com:castlele/algo-training.git

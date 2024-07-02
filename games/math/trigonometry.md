@@ -37,3 +37,21 @@ Trigonometric ratios are: sine, cosine and tangent:
 ![trigonometric ratios](/games/math/res/trigonometric_ratios.png)
 
 Mnemonics for easy learn :) are **soh** ($\sin(\theta)=\dfrac{opp}{hyp}$), **cah** ($\cos(\theta)=\dfrac{adj}{hyp}$) and **toa** (byonicl lul) ($\tan(\theta)=\dfrac{opp}{adj}$)
+
+# Vectors
+
+## Dot product (скалярное произведение)
+
+$\vec{a}\cdot\vec{b}=a_xb_x+a_yb_y+a_zb_z=|\vec{a}||\vec{b}|\cos{\theta}$
+
+$|\vec{a}|=\sqrt{\vec{a}\cdot\vec{a}}$
+
+Properties:
+
+- dot product is **commutative** (коммутативное свойство): $\vec{v}\cdot\vec{w}=\vec{w}\cdot\vec{v}$
+
+    $\vec{v}\cdot\vec{w}=v_xw_x+v_yw_y$
+
+    $\vec{w}\cdot\vec{v}=w_xv_x+w_yv_y$
+
+    As multiplication is commitative dot product of two vectors are also commutative

@@ -5,6 +5,12 @@ package org.example;
 
 public class Library {
     public boolean someLibraryMethod() {
-        return true;
+        int h = 10;
+        int n = someNumber();
+        return h > n;
+    }
+
+    private int someNumber() {
+        return 100;
     }
 }

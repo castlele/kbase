@@ -55,12 +55,19 @@ fourth_task() {
 fifth_task() {
     LOGS_FILE=$1
     FILTER_WORD=$2
+    FILTERED_LOGS_FILE=filtered_logs.log
+    LOGS_ARCHIVE=logs_archive.tar
 
-    cat $LOGS_FILE | grep $FILTER_WORD | sort -k 2 | \
-        awk ' \
-            BEGIN { for (i = 1; ARGC; ++i) printf "%s \n", ARGV[i] \
-            exit } \
-            '
+    # 1. Getting content of the $LOGS_FILE
+    cat $LOGS_FILE | \
+        # 2. "Filtering" by the given word
+        grep $FILTER_WORD | \
+        # 3. Sort by "time" column
+        sort -k 2 | \
+        # 4. Save sorted log entries to the file
+        xargs -I echo > "$FILTERED_LOGS_FILE"; \
+        # 5. Archive file with sorted and filtered logs
+        tar -cf "$LOGS_ARCHIVE" "$FILTERED_LOGS_FILE"
 }
 
 test() {
@@ -68,8 +75,8 @@ test() {
     $2
 }
 
-# test "first task" "first_task castlelecs"
-# test "second task" "second_task dir1 dir2"
-# test "third task" "third_task dir1"
-# test "fourth task" fourth_task
+test "first task" "first_task castlelecs"
+test "second task" "second_task dir1 dir2"
+test "third task" "third_task dir1"
+test "fourth task" fourth_task
 test "fifth task" "fifth_task logs/today.log WARNING"

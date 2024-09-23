@@ -162,6 +162,8 @@
   },
   "active": "b003c9a80909da8a",
   "lastOpenFiles": [
+    "devops/practice/unavailable",
+    "devops/practice/available",
     "devops/practice/file",
     "devops/practice/logs/today.log",
     "devops/practice/logs",
@@ -171,8 +173,6 @@
     "devops/practice/dir1/file1",
     "devops/practice/dir1/file2",
     "devops/practice/dir2/file1",
-    "devops/practice/dir2",
-    "devops/practice/dir1",
     "devops/bash_practice.md",
     "devops/practice/bash_practice.md",
     "devops/bash.md",

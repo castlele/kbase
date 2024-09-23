@@ -1,0 +1,13 @@
+%iused Filesystem Mounted
+0% /dev/disk3s1s1 /
+100% devfs /dev
+0% /dev/disk3s6 /System/Volumes/VM
+0% /dev/disk3s2 /System/Volumes/Preboot
+0% /dev/disk3s4 /System/Volumes/Update
+0% /dev/disk1s2 /System/Volumes/xarts
+0% /dev/disk1s1 /System/Volumes/iSCPreboot
+0% /dev/disk1s3 /System/Volumes/Hardware
+0% /dev/disk3s5 /System/Volumes/Data
+0 map -
+0% /dev/disk2s1 /System/Volumes/Update/SFR/mnt1
+0% /dev/disk3s1 /System/Volumes/Update/mnt1

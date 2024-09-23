@@ -58,8 +58,20 @@ awk '{ print $2, $1 }' $FILE
 # "hello" 1 
 # "world" 2 
 ```
+#### wc
+Utility to count character, lines and words from the input
+```bash
+wc -l file1
+```
+#### xargs
+Reads delimited (by end-of-file/line, tab, spaces) input and executes command for each delimiter.
 
-> TBD: mv, rm, mkdir, rmdir, cat, less, head, tail, stat, file, find. touch, ln, umask, df, du, tar, gzip, zip, rsync, scp, xargs,  sed и diff
+```bash
+find dir1 dir2 -type f | xargs wc -l
+```
+
+---
+> TBD: mv, rm, mkdir, rmdir, cat, less, head, tail, stat, file, find. touch, ln, umask, df, du, tar, gzip, zip, rsync, scp,  sed и diff
 ## Users
 Any process in Linux OS runs from the name of the user. Moreover, linux is a multiple-user operating system, that means users can have permissions to some common resources, create groups and limit access to resources to certain users who isn't in the group. There are three access levels:
 

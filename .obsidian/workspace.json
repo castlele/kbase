@@ -162,6 +162,8 @@
   },
   "active": "b003c9a80909da8a",
   "lastOpenFiles": [
+    "devops/practice/logs/tomorrow.log",
+    "devops/practice/logs/yesterday.log",
     "devops/practice/unavailable",
     "devops/practice/available",
     "devops/practice/file",
@@ -171,8 +173,6 @@
     "devops/practice/dir2/file3",
     "devops/practice/directory_comparison.txt",
     "devops/practice/dir1/file1",
-    "devops/practice/dir1/file2",
-    "devops/practice/dir2/file1",
     "devops/bash_practice.md",
     "devops/practice/bash_practice.md",
     "devops/bash.md",

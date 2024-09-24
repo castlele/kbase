@@ -18,8 +18,13 @@ ping_hosts() {
     UNAVAILABLE_COUNT=0
 
     for host in ${HOSTS[@]}; do
+        # Pinging every host redirecting output to /dev/null
+        # Ping count is one
+        # Exits successfully after receiving one reply packet
+        # Timeout is $TIMEOUT
         ping -c 1 -o $host -t $TIMEOUT &> /dev/null
 
+        # if status code of the ping command is 0 treat it like host is available
         if [ $? -eq "0" ]; then
             echo "Хост [$host] доступен"
             AVAILABLE_COUNT=$(expr $AVAILABLE_COUNT + 1)

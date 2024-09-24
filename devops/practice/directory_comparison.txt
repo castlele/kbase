@@ -1,7 +1,0 @@
-diff dir1/file1 dir2/file1
-1,3d0
-< When a psychopath commits murders based on novelist Castle's books, Detective
-< Beckett seeks his help to solve the case. He decides to work with her and uses
-< his experiences as research for his novels.
-Only in dir1: file2
-Only in dir2: file3

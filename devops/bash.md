@@ -206,6 +206,7 @@ But there is more of this. Bash has predefined variables:
 - `$HOME` - home directory path
 - `OSTYPE` - type of the OS
 - `$PATH` - paths to the executables
+- `$?` - exit status code of the last executed command
 - `$#` - amount of arguments, passed to the script
 - `$*` - stores every argument, passed to the script in one line
 - `$@` - stores every argument, passed to the script as the table

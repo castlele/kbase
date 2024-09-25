@@ -24,10 +24,19 @@ fi
 count_lines_in_logs() {
     overall_lines_with_keyword=0
 
+    # For every **file** in the given directory with the *.log name pattern
     for log_file in $(find $LOGS_DIR -type f -name $FILE_FINDING_PATTERN); do
+        # 1. Find lines with the keyword in every file
+        # 2. Count amount of lines with the keyword
+        # 3. Take only amount
         lines_with_keyword=$(grep $KEYWORD $log_file | wc -l | awk '{ print $1 }')
-        echo $lines_with_keyword
+        overall_lines_with_keyword=$(expr $overall_lines_with_keyword + $lines_with_keyword)
+        echo "Файл [$log_file] содержит [$lines_with_keyword] строк с ключевым словом [$KEYWORD]"
     done
+
+    echo ""
+    echo "------"
+    echo "Всего строк с ключевым словом: $overall_lines_with_keyword"
 }
 
 count_lines_in_logs

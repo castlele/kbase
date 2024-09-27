@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c1326d856d0a5db3",
+        "id": "ec177ec02e143501",
         "type": "tabs",
         "children": [
           {
-            "id": "b003c9a80909da8a",
+            "id": "fa97977a7f07b5b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/bash.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0134dd590f88fce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devops/bash_practice.md",
+                "file": "devops/os.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#scripting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/bash.md",
+                "file": "devops/os.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/bash.md",
+                "file": "devops/os.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -138,11 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/bash.md"
+                "file": "devops/os.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -160,8 +150,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b003c9a80909da8a",
+  "active": "fa97977a7f07b5b3",
   "lastOpenFiles": [
+    "road.canvas",
+    "devops/os.md",
+    "book_log.md",
+    "2024-09-27.md",
+    "devops/bash.md",
     "devops/practice/logs/tomorrow.log",
     "devops/practice/logs/yesterday.log",
     "devops/practice/unavailable",
@@ -172,10 +167,8 @@
     "devops/practice/disk_space_usage.txt",
     "devops/practice/dir2/file3",
     "devops/practice/directory_comparison.txt",
-    "devops/practice/dir1/file1",
     "devops/bash_practice.md",
     "devops/practice/bash_practice.md",
-    "devops/bash.md",
     "games/love/Zelda/res/sprites/player/playerSheet.png",
     "games/love/Zelda/libs/windfield/mlib/README.md",
     "games/love/Zelda/libs/windfield/mlib/LICENSE.md",

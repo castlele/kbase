@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"56f918d928c02069","x":40,"y":-1064,"width":250,"height":60,"color":"3","type":"text","text":"System Design"},
+		{"id":"266ad46eb2a836e0","x":-734,"y":-1064,"width":250,"height":60,"color":"3","type":"text","text":"Algorithms and Data structures"},
+		{"id":"db5c6bf5f647d375","type":"text","text":"Computer Science","x":-340,"y":-1064,"width":201,"height":60,"color":"3"},
+		{"id":"94129846cc614801","x":-340,"y":-1240,"width":200,"height":60,"type":"text","text":"Engineering role"},
+		{"id":"1570a3067e423cc1","type":"text","text":"Castle got three routes :)","x":-379,"y":-865,"width":280,"height":50},
+		{"id":"2a0737d6d9255484","x":-734,"y":-680,"width":125,"height":51,"color":"4","type":"text","text":"Android"},
+		{"id":"8a6c8977c42355be","x":-484,"y":-679,"width":95,"height":50,"color":"#f894ff","type":"text","text":"iOS"},
+		{"id":"b300955725133f6c","x":-269,"y":-680,"width":170,"height":50,"color":"1","type":"text","text":"Game Dev"},
+		{"id":"1e8cc5e32f7d82c6","x":40,"y":-680,"width":112,"height":60,"color":"5","type":"text","text":"DevOps"},
+		{"id":"d2f7a73d1c6727cb","x":-1374,"y":-440,"width":640,"height":519,"type":"link","url":"https://roadmap.sh/android"},
+		{"id":"07130896b9bc85fe","x":-234,"y":-490,"width":101,"height":50,"type":"text","text":"C++"}
+	],
+	"edges":[
+		{"id":"65fa9a2c72d5a97a","fromNode":"94129846cc614801","fromSide":"left","toNode":"266ad46eb2a836e0","toSide":"top"},
+		{"id":"c91ea550555ef819","fromNode":"94129846cc614801","fromSide":"right","toNode":"56f918d928c02069","toSide":"top"},
+		{"id":"fccbe71e243ff9cc","fromNode":"94129846cc614801","fromSide":"bottom","toNode":"db5c6bf5f647d375","toSide":"top"},
+		{"id":"305147efea1aa2c6","fromNode":"266ad46eb2a836e0","fromSide":"bottom","toNode":"1570a3067e423cc1","toSide":"left"},
+		{"id":"16d6e582664d3b16","fromNode":"db5c6bf5f647d375","fromSide":"bottom","toNode":"1570a3067e423cc1","toSide":"top"},
+		{"id":"0de0abc566fc4928","fromNode":"56f918d928c02069","fromSide":"bottom","toNode":"1570a3067e423cc1","toSide":"right"},
+		{"id":"dd8deea73ef1d84e","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"b300955725133f6c","toSide":"top"},
+		{"id":"c585645d033f7852","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"8a6c8977c42355be","toSide":"top"},
+		{"id":"5a4aae488afbd7cf","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"2a0737d6d9255484","toSide":"top"},
+		{"id":"27f3ab200b7831b7","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"1e8cc5e32f7d82c6","toSide":"top"},
+		{"id":"4fd584aab3066e1f","fromNode":"2a0737d6d9255484","fromSide":"bottom","toNode":"d2f7a73d1c6727cb","toSide":"top"},
+		{"id":"8a2e73400156a049","fromNode":"b300955725133f6c","fromSide":"bottom","toNode":"07130896b9bc85fe","toSide":"top"}
+	]
+}

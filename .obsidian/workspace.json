@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/os.md",
+                "file": "languages/kotlin/objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#scripting",
+                "query": "singleton",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/os.md",
+                "file": "languages/kotlin/objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/os.md",
+                "file": "languages/kotlin/objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/os.md"
+                "file": "languages/kotlin/objects.md"
               }
             }
           }
@@ -152,9 +151,12 @@
   },
   "active": "fa97977a7f07b5b3",
   "lastOpenFiles": [
-    "road.canvas",
-    "devops/os.md",
+    "architecture/DI_frameworks.md",
+    "languages/kotlin/objects.md",
     "book_log.md",
+    "devops/os.md",
+    "languages/kotlin",
+    "road.canvas",
     "2024-09-27.md",
     "devops/bash.md",
     "devops/practice/logs/tomorrow.log",
@@ -166,7 +168,6 @@
     "devops/practice/logs",
     "devops/practice/disk_space_usage.txt",
     "devops/practice/dir2/file3",
-    "devops/practice/directory_comparison.txt",
     "devops/bash_practice.md",
     "devops/practice/bash_practice.md",
     "games/love/Zelda/res/sprites/player/playerSheet.png",

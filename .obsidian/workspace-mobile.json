@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "b011c7eceda5726f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b29d6e1effd1ff41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b5bd64e350968a9",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "road_map.canvas",
+                "viewState": {
+                  "x": -310.34495276140905,
+                  "y": -468.7781928440451,
+                  "zoom": -2.8263801521591794
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eed4f6f025f0859e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5c19ef7121243f61",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "b05db697b0f5afef",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "50050890d4314a83",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "b227fc3d01fe967a",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c9809e4b6a61ad2b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4f0b1ace19b7b5e8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "road_map.canvas",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1aee4015d8c8835d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "road_map.canvas",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4d6839b3bfefaacc",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "road_map.canvas"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "2b5bd64e350968a9",
+  "lastOpenFiles": [
+    "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. éßÑ, þÔ« ¡Òª¡« »Ó«úÓá¼¼¿ßÔÒ ¿ ÓáºÓáí«Ôþ¿¬Ò [2018] é½áñßÔ«¡ öÑÓÓÑ®Óá ö¿½«.pdf",
+    "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. æÑÔ¿, ¬Ó¿»Ô«úÓáõ¿´ ¿ data science [2022] ö¿½«,  Å¿¬ÔÑÔ.epub",
+    "kmp/coroutines/coroutines.md",
+    "road_map.canvas"
+  ]
+}

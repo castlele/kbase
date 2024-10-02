@@ -6,28 +6,45 @@ tags:
   - devops
   - scripting
 ---
+- [[#Commands|Commands]]
+	- [[#Commands#ls|ls]]
+	- [[#Commands#cp|cp]]
+	- [[#Commands#cd|cd]]
+	- [[#Commands#pwd|pwd]]
+	- [[#Commands#grep|grep]]
+	- [[#Commands#awk|awk]]
+	- [[#Commands#wc|wc]]
+	- [[#Commands#xargs|xargs]]
+- [[#Users|Users]]
+- [[#Permissions|Permissions]]
+- [[#Input and Output streams|Input and Output streams]]
+- [[#Scripting|Scripting]]
+	- [[#Scripting#Logical operators|Logical operators]]
+	- [[#Scripting#Equality check|Equality check]]
+	- [[#Scripting#Loops|Loops]]
+
 **Shell** is a command-line interpreter that exposes an operating system's services to a user or other programs.
 
 **Bash** is a shell program and command language supported by the Free Software Foundation and first developed for the GNU Project.
 ## Commands 
 Everything in linux is a *file*. So it is mandatory to be able to work with files.
-#### ls
+### ls
 Lists sources (all files in the current directory).
 
 - `ls -R`: returns all files for subdirectories recursively
 - `ls -l`: returns a list of files as list with additional info like creation date, chmod and etc.
 - `ls -a`: returns a list of files including hidden files
 - `ls -d ./*`: returns only a list of the directories
-#### cp
+### cp
 Copies files (or/and directories) from one directory to another
 
 - `cp file1 file2`: copies file1 to with name file2 by file2 path
 - `cp -a dir1/ dir2/`: copies one directory to another directory (works as with coping of the files)
-#### cd
+### cd
 Changes directory
-#### pwd
+### pwd
 Prints working directory
-#### grep
+### grep
 Tool that can search in files with different pattern
 
 ```bash
@@ -42,7 +59,7 @@ grep -b --colour "hello\ world" $FILE
 # 0:hello world 
 # 19:hello world 
 ```
-#### awk
+### awk
 **awk** - "pattern-directed scanning and processing language". This tool scans its input for lines and performs actions on them. This lines can be filtered/parsed/modified with pattern matching.
 
 For example, this program prints second column first:
@@ -58,12 +75,12 @@ awk '{ print $2, $1 }' $FILE
 # "hello" 1 
 # "world" 2 
 ```
-#### wc
+### wc
 Utility to count character, lines and words from the input
 ```bash
 wc -l file1
 ```
-#### xargs
+### xargs
 Reads delimited (by end-of-file/line, tab, spaces) input and executes command for each delimiter.
 
 ```bash

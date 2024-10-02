@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "languages/kotlin/objects.md",
+                "file": "devops/raid.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "languages/kotlin/objects.md",
+                "file": "devops/raid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "languages/kotlin/objects.md",
+                "file": "devops/raid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "languages/kotlin/objects.md"
+                "file": "devops/raid.md"
+              }
+            }
+          },
+          {
+            "id": "136de29f8accf176",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -146,19 +158,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false
     }
   },
   "active": "fa97977a7f07b5b3",
   "lastOpenFiles": [
-    "architecture/DI_frameworks.md",
-    "languages/kotlin/objects.md",
-    "book_log.md",
+    "Pasted image 20241002063025.png",
     "devops/os.md",
+    "devops/bash.md",
+    "devops/raid.md",
+    "catalog/mifi.md",
+    "catalog",
+    "languages/kotlin/objects.md",
+    "architecture/DI_frameworks.md",
+    "book_log.md",
     "languages/kotlin",
     "road.canvas",
     "2024-09-27.md",
-    "devops/bash.md",
     "devops/practice/logs/tomorrow.log",
     "devops/practice/logs/yesterday.log",
     "devops/practice/unavailable",
@@ -167,7 +184,6 @@
     "devops/practice/logs/today.log",
     "devops/practice/logs",
     "devops/practice/disk_space_usage.txt",
-    "devops/practice/dir2/file3",
     "devops/bash_practice.md",
     "devops/practice/bash_practice.md",
     "games/love/Zelda/res/sprites/player/playerSheet.png",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/raid.md",
+                "file": "devops/os.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/raid.md",
+                "file": "devops/os.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/raid.md",
+                "file": "devops/os.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/raid.md"
+                "file": "devops/os.md"
               }
             }
           },
           {
-            "id": "136de29f8accf176",
+            "id": "88c4a5f9848f39c6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -158,24 +158,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "publish:Publish changes...": false
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "fa97977a7f07b5b3",
   "lastOpenFiles": [
-    "Pasted image 20241002063025.png",
-    "devops/os.md",
-    "devops/bash.md",
+    "languages/kotlin/objects.md",
+    "road_map.canvas",
     "devops/raid.md",
     "catalog/mifi.md",
     "catalog",
-    "languages/kotlin/objects.md",
     "architecture/DI_frameworks.md",
     "book_log.md",
+    "devops/os.md",
     "languages/kotlin",
     "road.canvas",
     "2024-09-27.md",
+    "devops/bash.md",
     "devops/practice/logs/tomorrow.log",
     "devops/practice/logs/yesterday.log",
     "devops/practice/unavailable",

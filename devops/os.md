@@ -165,4 +165,25 @@ Configuration files of DNF for repositories are stored in `/etc/yum.repos.d/` di
 
 #### `dnf` package creation
 
-TBD
+Main steps:
+1. Prepare a structure of the directory
+2. Create directory for package with `<package_name>-<version>` in `rpmbuild/SOURCES/`
+3. Create a program
+4. Create an `tar.gz` archive with directory with program
+5. 
+
+```bash
+# Optional step with dependencies installation
+sudo dnf install rpmdev* pinentry
+
+PACKAGE_NAME="package"
+PACKAGE_VERSION="1.0"
+
+rpmdev-setuptree
+cd ~/rpmbuild/SOURCES
+mkdir $PACKAGE_NAME-$PACKAGE_VERSION
+cd $PACKAGE_NAME-$PACKAGE_VERSION
+vim $PACKAGE_NAME
+chmod +x $PACKAGE_NAME
+cd ~/rpmbuild/SOURCES
+```

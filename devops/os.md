@@ -170,7 +170,8 @@ Main steps:
 2. Create directory for package with `<package_name>-<version>` in `rpmbuild/SOURCES/`
 3. Create a program
 4. Create an `tar.gz` archive with directory with program
-5. 
+5. Create specification file
+6. Create rpm package
 
 ```bash
 # Optional step with dependencies installation
@@ -179,11 +180,82 @@ sudo dnf install rpmdev* pinentry
 PACKAGE_NAME="package"
 PACKAGE_VERSION="1.0"
 
+# 1.
 rpmdev-setuptree
+# 2.
 cd ~/rpmbuild/SOURCES
 mkdir $PACKAGE_NAME-$PACKAGE_VERSION
 cd $PACKAGE_NAME-$PACKAGE_VERSION
+# 3.
 vim $PACKAGE_NAME
 chmod +x $PACKAGE_NAME
+# 4.
 cd ~/rpmbuild/SOURCES
+tar -cvzf $PACKAGE_NAME-$PACKAGE_VERSION.tar.gz $PACKAGE_NAME-$PACKAGE_VERSION
+# 5.
+cd ~/rpmbuild/SPECS
+vim $PACKAGE_NAME.spec
+# 6.
+rpmbuild -ba $PACKAGE_NAME.spec
+```
+
+Package can be installed with the following command:
+
+```bash
+sudo rpm -i example-1.0-1.el9.x86_64.rpm
+```
+
+For signing:
+
+```bash
+# Generate key
+gpg --gen-key
+
+# Export public key
+gpg --export -a "Name" > RPM-GPG-KEY-$PACKAGE_NAME
+
+# Add the following if needed
+cat "%_signature gpg" >> ~/.rpmmacros
+cat "%_gpg_name Name" >> ~/.rpmmacros
+
+# Sign existing package
+rpm --addsign ~/rpmbuild/RPMS/architecure/$PACKAGE_NAME-$PACKAGE_VERSION.architecture.rpm
+
+# Check signing 
+sudo rpm --import RPM-GPG-KEY-$PACKAGE_NAME
+rpm --checksig ~/rpmbuild/RPMS/architecture/$PACKAGE_NAME-$PACKAGE_VERSION.architecture.rpm
+```
+
+Specification file example:
+
+```spec
+Name:          example
+Version:       1.0
+Release:       1%{?dist}
+Summary:       Программа приветствия
+Group:         Testing
+License:       GPL
+URL:           https://git.example.ru/example
+Source0:       %{name}-%{version}.tar.gz
+BuildRequires: /bin/rm, /bin/mkdir, /bin/cp
+Requires:      /bin/bash
+
+BuildArch:     x86_64
+
+%description
+A test package
+
+%prep
+%setup -q
+
+%install
+mkdir -p %{buildroot}%{_bindir}
+install -m 755 example %{buildroot}%{_bindir}
+
+%files
+%{_bindir}/example
+
+%changelog
+* Mon Sept 2 2024 Фамилия Имя <email>
+- Added %{_bindir}/example
 ```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/raid.md",
+                "file": "MaterialsLog.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "75ff9a8d2812c2a0",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/raid.md",
+                "file": "MaterialsLog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/raid.md",
+                "file": "MaterialsLog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/raid.md"
+                "file": "MaterialsLog.md"
               }
             }
           },
@@ -162,14 +161,19 @@
   },
   "active": "fa97977a7f07b5b3",
   "lastOpenFiles": [
-    "catalog/mifi.md",
+    "CV.md",
+    "computer_science/multithreading/Future and Promises.md",
+    "Untitled.md",
+    "computer_science/HLS.md",
+    "computer_science/multithreading",
     "devops/raid.md",
+    "catalog/mifi.md",
     "devops/os.md",
     "languages/kotlin/objects.md",
     "road_map.canvas",
     "catalog",
     "architecture/DI_frameworks.md",
-    "book_log.md",
+    "MaterialsLog.md",
     "languages/kotlin",
     "road.canvas",
     "2024-09-27.md",
@@ -181,7 +185,6 @@
     "devops/practice/file",
     "devops/practice/logs/today.log",
     "devops/practice/logs",
-    "devops/practice/disk_space_usage.txt",
     "devops/bash_practice.md",
     "devops/practice/bash_practice.md",
     "games/love/Zelda/res/sprites/player/playerSheet.png",

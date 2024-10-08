@@ -15,14 +15,27 @@
               "state": {
                 "file": "road_map.canvas",
                 "viewState": {
-                  "x": -310.34495276140905,
-                  "y": -468.7781928440451,
-                  "zoom": -2.8263801521591794
+                  "x": -279.8720703125,
+                  "y": -344.0813802083334,
+                  "zoom": -2.2529807411698712
                 }
               }
             }
+          },
+          {
+            "id": "d2f585e8c2cd9a4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CV.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,6 +87,18 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "88f0afcfb70ac89a",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -88,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "road_map.canvas",
+            "file": "CV.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "road_map.canvas",
+            "file": "CV.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "road_map.canvas"
+            "file": "CV.md"
           }
         }
       }
@@ -135,11 +160,18 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "2b5bd64e350968a9",
+  "active": "d2f585e8c2cd9a4e",
   "lastOpenFiles": [
+    "computer_science/multithreading/Future and Promises.md",
+    "CV.md",
+    "computer_science/multithreading",
+    "computer_science/HLS.md",
+    "MaterialsLog.md",
+    "devops/raid.md",
+    "road_map.canvas",
+    "devops/bash.md",
     "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. éßÑ, þÔ« ¡Òª¡« »Ó«úÓá¼¼¿ßÔÒ ¿ ÓáºÓáí«Ôþ¿¬Ò [2018] é½áñßÔ«¡ öÑÓÓÑ®Óá ö¿½«.pdf",
     "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. æÑÔ¿, ¬Ó¿»Ô«úÓáõ¿´ ¿ data science [2022] ö¿½«,  Å¿¬ÔÑÔ.epub",
-    "kmp/coroutines/coroutines.md",
-    "road_map.canvas"
+    "kmp/coroutines/coroutines.md"
   ]
 }

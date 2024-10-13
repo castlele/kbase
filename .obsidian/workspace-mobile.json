@@ -8,27 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b5bd64e350968a9",
+            "id": "d2f585e8c2cd9a4e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "road_map.canvas",
                 "viewState": {
-                  "x": -279.8720703125,
-                  "y": -344.0813802083334,
-                  "zoom": -2.2529807411698712
+                  "x": -415.086596379116,
+                  "y": 691.4437222782036,
+                  "zoom": -1.1945563911763892
                 }
               }
             }
           },
           {
-            "id": "d2f585e8c2cd9a4e",
+            "id": "e72c1cdcb06bb126",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV.md",
+                "file": "languages/kotlin/Basic language concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CV.md",
+            "file": "languages/kotlin/Basic language concepts.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CV.md",
+            "file": "languages/kotlin/Basic language concepts.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -142,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "CV.md"
+            "file": "languages/kotlin/Basic language concepts.md"
           }
         }
       }
@@ -160,15 +160,18 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d2f585e8c2cd9a4e",
+  "active": "e72c1cdcb06bb126",
   "lastOpenFiles": [
-    "computer_science/multithreading/Future and Promises.md",
+    "languages/java/java.md",
+    "languages/kotlin/Basic language concepts.md",
+    "road_map.canvas",
+    "Untitled.md",
     "CV.md",
+    "computer_science/multithreading/Future and Promises.md",
     "computer_science/multithreading",
     "computer_science/HLS.md",
     "MaterialsLog.md",
     "devops/raid.md",
-    "road_map.canvas",
     "devops/bash.md",
     "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. éßÑ, þÔ« ¡Òª¡« »Ó«úÓá¼¼¿ßÔÒ ¿ ÓáºÓáí«Ôþ¿¬Ò [2018] é½áñßÔ«¡ öÑÓÓÑ®Óá ö¿½«.pdf",
     "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. æÑÔ¿, ¬Ó¿»Ô«úÓáõ¿´ ¿ data science [2022] ö¿½«,  Å¿¬ÔÑÔ.epub",

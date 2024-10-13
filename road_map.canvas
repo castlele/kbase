@@ -10,7 +10,9 @@
 		{"id":"1570a3067e423cc1","type":"text","text":"Castle got three routes :)","x":-369,"y":0,"width":280,"height":50},
 		{"id":"db5c6bf5f647d375","type":"text","text":"Computer Science \n\n- [ ] computational complexity \n- [ ] algoritms strategies\n- [ ] data bases\n- [ ] computer architecture\n- [ ] combinatorics","x":-415,"y":-1040,"width":351,"height":264,"color":"3"},
 		{"id":"266ad46eb2a836e0","type":"text","text":"Algorithms and Data structures","x":-944,"y":-908,"width":250,"height":60,"color":"3"},
-		{"id":"56f918d928c02069","type":"text","text":"System Design","x":136,"y":-958,"width":264,"height":50,"color":"3"}
+		{"id":"56f918d928c02069","type":"text","text":"System Design","x":136,"y":-958,"width":264,"height":50,"color":"3"},
+		{"id":"f682e97849d8431a","type":"text","text":"Kotlin","x":-770,"y":555,"width":139,"height":50},
+		{"id":"a48352b7f75a1a40","x":-595,"y":520,"width":304,"height":120,"type":"file","file":"languages/kotlin/Basic language concepts.md"}
 	],
 	"edges":[
 		{"id":"65fa9a2c72d5a97a","fromNode":"94129846cc614801","fromSide":"left","toNode":"266ad46eb2a836e0","toSide":"top"},
@@ -23,7 +25,9 @@
 		{"id":"c585645d033f7852","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"8a6c8977c42355be","toSide":"top"},
 		{"id":"5a4aae488afbd7cf","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"2a0737d6d9255484","toSide":"top"},
 		{"id":"27f3ab200b7831b7","fromNode":"1570a3067e423cc1","fromSide":"bottom","toNode":"1e8cc5e32f7d82c6","toSide":"top"},
-		{"id":"4fd584aab3066e1f","fromNode":"2a0737d6d9255484","fromSide":"bottom","toNode":"d2f7a73d1c6727cb","toSide":"top"},
-		{"id":"8a2e73400156a049","fromNode":"b300955725133f6c","fromSide":"bottom","toNode":"07130896b9bc85fe","toSide":"top"}
+		{"id":"8a2e73400156a049","fromNode":"b300955725133f6c","fromSide":"bottom","toNode":"07130896b9bc85fe","toSide":"top"},
+		{"id":"a9f87d3b7bc2fefd","fromNode":"2a0737d6d9255484","fromSide":"bottom","toNode":"f682e97849d8431a","toSide":"top"},
+		{"id":"9917fb377dce5da7","fromNode":"f682e97849d8431a","fromSide":"bottom","toNode":"d2f7a73d1c6727cb","toSide":"top"},
+		{"id":"bdf01239c7588c90","fromNode":"f682e97849d8431a","fromSide":"right","toNode":"a48352b7f75a1a40","toSide":"left"}
 	]
 }

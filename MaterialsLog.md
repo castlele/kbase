@@ -7,8 +7,10 @@
 ## Kotlin
 - [ ] [Kotlin Essentials](https://kt.academy/book/kotlin_essentials)
 
+## Lua
+- [ ] [Programming in Lua, fourth edition](https://www.amazon.com/dp/8590379868)
 # Other materials
 
 ## iOS
 
-- [ ] [Future/Promise](https://www.swiftbysundell.com/articles/under-the-hood-of-futures-and-promises-in-swift/)
+- [x] [Future/Promise](https://www.swiftbysundell.com/articles/under-the-hood-of-futures-and-promises-in-swift/)

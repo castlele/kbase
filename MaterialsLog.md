@@ -14,3 +14,8 @@
 ## iOS
 
 - [x] [Future/Promise](https://www.swiftbysundell.com/articles/under-the-hood-of-futures-and-promises-in-swift/)
+
+## Android
+
+- [x] [Material theming](https://developer.android.com/codelabs/jetpack-compose-theming#8)
+- [x] [Styling text fields](https://www.youtube.com/watch?v=cIK7ILpApGE)

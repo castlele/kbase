@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas.md",
+                "file": "MaterialsLog.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ideas.md",
+                "file": "MaterialsLog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ideas.md",
+                "file": "MaterialsLog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ideas.md"
+                "file": "MaterialsLog.md"
               }
             }
           },
@@ -161,9 +161,9 @@
   },
   "active": "379e503a22a99bf5",
   "lastOpenFiles": [
+    "Ideas.md",
     "MaterialsLog.md",
     "computer_science/HLS.md",
-    "Ideas.md",
     "CV.md",
     "computer_science/multithreading/Future and Promises.md",
     "computer_science/multithreading",

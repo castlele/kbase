@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ec177ec02e143501",
+        "id": "373431d337a1fdb0",
         "type": "tabs",
         "children": [
           {
-            "id": "fa97977a7f07b5b3",
+            "id": "379e503a22a99bf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MaterialsLog.md",
+                "file": "Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MaterialsLog.md",
+                "file": "Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MaterialsLog.md",
+                "file": "Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MaterialsLog.md"
+                "file": "Ideas.md"
               }
             }
           },
@@ -159,12 +159,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "fa97977a7f07b5b3",
+  "active": "379e503a22a99bf5",
   "lastOpenFiles": [
+    "MaterialsLog.md",
+    "computer_science/HLS.md",
+    "Ideas.md",
     "CV.md",
     "computer_science/multithreading/Future and Promises.md",
-    "Untitled.md",
-    "computer_science/HLS.md",
     "computer_science/multithreading",
     "devops/raid.md",
     "catalog/mifi.md",
@@ -173,7 +174,6 @@
     "road_map.canvas",
     "catalog",
     "architecture/DI_frameworks.md",
-    "MaterialsLog.md",
     "languages/kotlin",
     "road.canvas",
     "2024-09-27.md",

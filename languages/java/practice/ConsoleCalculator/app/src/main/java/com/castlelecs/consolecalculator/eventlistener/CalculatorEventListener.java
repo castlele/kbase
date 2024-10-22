@@ -1,7 +1,5 @@
 package com.castlelecs.consolecalculator.eventlistener;
 
-import java.util.Objects;
-
 import com.castlelecs.consolecalculator.interpreter.ConsoleInterpreter;
 import com.castlelecs.consolecalculator.interpreter.InterpreterExceptions;
 

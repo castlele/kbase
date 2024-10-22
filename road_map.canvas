@@ -12,7 +12,8 @@
 		{"id":"266ad46eb2a836e0","type":"text","text":"Algorithms and Data structures","x":-944,"y":-908,"width":250,"height":60,"color":"3"},
 		{"id":"56f918d928c02069","type":"text","text":"System Design","x":136,"y":-958,"width":264,"height":50,"color":"3"},
 		{"id":"f682e97849d8431a","type":"text","text":"Kotlin","x":-770,"y":555,"width":139,"height":50},
-		{"id":"a48352b7f75a1a40","x":-595,"y":520,"width":304,"height":120,"type":"file","file":"languages/kotlin/Basic language concepts.md"}
+		{"id":"a48352b7f75a1a40","type":"file","file":"languages/kotlin/Basic language concepts.md","x":-595,"y":520,"width":304,"height":120},
+		{"id":"436f91a42c2bc7df","x":340,"y":-476,"width":660,"height":696,"color":"1","type":"text","text":"algorithms:\n1. techniques\n2. complexity\n3. practice\n\ncs:\n1. data bases\n2. networking\n3. computer architecture\n4. combinatorics\n5. lua :)\n\nsystem design:\n1. design patterns\n2. ...\n\ndevops:\n1. linux\n2. unix\n3. k8s\n4. jenkins\n\nmultithreading:\n1. feature/promises\n2. structural programming\n3. coroutines\n4. threads\n5. synchronization\n\nios:\n1. CA\n2. CG\n3. animations\n4. metal shaders"}
 	],
 	"edges":[
 		{"id":"65fa9a2c72d5a97a","fromNode":"94129846cc614801","fromSide":"left","toNode":"266ad46eb2a836e0","toSide":"top"},

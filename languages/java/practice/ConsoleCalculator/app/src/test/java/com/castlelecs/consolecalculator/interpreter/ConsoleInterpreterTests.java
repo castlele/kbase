@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 public class ConsoleInterpreterTests {
 
-    private static String INPUT_OF_INTS = "1 2 3 4 5 6";
+    private static String INPUT_OF_INTS = "1 2 3 4 5 6 ";
     private static String INPUT_OF_CHARS = "a b c d e ";
 
     @Test
@@ -31,6 +31,30 @@ public class ConsoleInterpreterTests {
             int result = sut.waitForInt();
 
             assertEquals(toInt(INPUT_OF_INTS.charAt(0)), result);
+        });
+    }
+
+    @Test
+    void waitForCharReturnsFirstCharInTheInput() {
+        String[] awaitedItem = {"e"};
+        ConsoleInterpreter sut = createInterpreter(INPUT_OF_CHARS);
+
+        assertNotThrows(() -> {
+            String result = sut.waitForCharIn(awaitedItem);
+
+            assertEquals(String.valueOf(INPUT_OF_CHARS.charAt(8)), result);
+        });
+    }
+
+    @Test
+    void waitForCharIgnoresAllWrongSymbols() {
+        String[] awaitedItem = {"a"};
+        ConsoleInterpreter sut = createInterpreter(INPUT_OF_INTS + INPUT_OF_CHARS);
+
+        assertNotThrows(() -> {
+            String result = sut.waitForCharIn(awaitedItem);
+
+            assertEquals(String.valueOf(INPUT_OF_CHARS.charAt(0)), result);
         });
     }
 

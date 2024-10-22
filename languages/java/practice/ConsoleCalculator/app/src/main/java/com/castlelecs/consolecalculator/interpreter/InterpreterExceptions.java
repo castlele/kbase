@@ -8,11 +8,33 @@ public class InterpreterExceptions extends Exception {
 
     public static class NoIntInputException extends InterpreterExceptions {
 
-        // TODO: Create message
-        private static String MESSAGE = "";
+        private static String MESSAGE = "No input was got, but int was awaited!";
 
         NoIntInputException() {
             super(MESSAGE);
+        }
+
+    }
+
+    public static class NoCharInputException extends InterpreterExceptions {
+
+        private static String MESSAGE = "No input was got, but char was awaited!";
+
+        NoCharInputException() {
+            super(MESSAGE);
+        }
+    }
+
+    public static class StopCommandException extends InterpreterExceptions {
+
+        public String command;
+
+        private static String MESSAGE = "Stop command has been reached!";
+
+        StopCommandException(String command) {
+            super(MESSAGE);
+
+            this.command = command;
         }
     }
 }

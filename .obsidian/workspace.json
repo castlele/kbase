@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "373431d337a1fdb0",
+        "id": "fc3b166a1fc41106",
         "type": "tabs",
         "children": [
           {
-            "id": "379e503a22a99bf5",
+            "id": "9ceb4e652d020ff3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "road_map.canvas",
-                "viewState": {
-                  "x": 670,
-                  "y": -128,
-                  "zoom": -0.42968427524324543
-                }
-              }
+                "file": "computer_science/physical_and_virtual_storage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "physical_and_virtual_storage"
             }
           }
         ]
@@ -42,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -57,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -65,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -89,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "road_map.canvas",
+                "file": "computer_science/physical_and_virtual_storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for physical_and_virtual_storage"
             }
           },
           {
@@ -106,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "road_map.canvas",
+                "file": "computer_science/physical_and_virtual_storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from physical_and_virtual_storage"
             }
           },
           {
@@ -120,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -129,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "road_map.canvas"
-              }
+                "file": "computer_science/physical_and_virtual_storage.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of physical_and_virtual_storage"
             }
           },
           {
@@ -142,7 +155,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -163,8 +178,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "379e503a22a99bf5",
+  "active": "9ceb4e652d020ff3",
   "lastOpenFiles": [
+    "computer_science/physical_and_virtual_storage.md",
+    "road_map.canvas",
+    "computer_science/data_streams.md",
     "MaterialsLog.md",
     "Ideas.md",
     "computer_science/HLS.md",
@@ -175,7 +193,6 @@
     "catalog/mifi.md",
     "devops/os.md",
     "languages/kotlin/objects.md",
-    "road_map.canvas",
     "catalog",
     "architecture/DI_frameworks.md",
     "languages/kotlin",

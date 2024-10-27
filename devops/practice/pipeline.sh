@@ -6,13 +6,16 @@
 # «system_monitoring.txt»
 first_task() {
     USER=$1
+    FILTER_WORD=$2
     OUTPUT_FILE=system_monitoring.txt
 
     # 1. get processes info for $USER: pid, cpu usage, memory usage, command
     ps -o pid,%cpu,%mem,comm -u$USER | \
-        # 2. remove header line
+        # 2. filter by keyword
+        grep $FILTER_WORD | \
+        # 3. remove header line
         awk 'NR>1'| \
-        # 3. sort ascending by memory usage column
+        # 4. sort ascending by memory usage column
         sort -k 3 > \
         $OUTPUT_FILE
 }
@@ -25,7 +28,7 @@ second_task() {
     RHS_DIR=$2
     OUTPUT_FILE=directory_comparison.txt
 
-    diff $LHS_DIR $RHS_DIR > $OUTPUT_FILE
+    diff <(find $LHS_DIR | sort) <(find $RHS_DIR | sort) > $OUTPUT_FILE
 }
 
 # Напишите конвейер для подсчета общего числа строк во всех текстовых файлах в
@@ -46,7 +49,10 @@ fourth_task() {
     OUTPUT_FILE=disk_space_usage.txt
 
     # Stores used space percents, filesytem name and mounted information in the file
-    df | awk '{ print $8, $1, $9 }' > $OUTPUT_FILE
+    df | awk '{ print $8, $1, $9 }' | \
+        # Sorts by the used space
+        sort -k 1 > \
+        $OUTPUT_FILE
 }
 
 # Напишите конвейер, который использует команды cat, grep, awk, sort и tar для
@@ -65,7 +71,7 @@ fifth_task() {
         # 3. Sort by "time" column
         sort -k 2 | \
         # 4. Save sorted log entries to the file
-        xargs -I echo > "$FILTERED_LOGS_FILE"; \
+        awk '{ print $0 }' > "$FILTERED_LOGS_FILE"; \
         # 5. Archive file with sorted and filtered logs
         tar -cf "$LOGS_ARCHIVE" "$FILTERED_LOGS_FILE"
 }
@@ -75,7 +81,7 @@ test() {
     $2
 }
 
-test "first task" "first_task castlelecs"
+test "first task" "first_task castlelecs nvim"
 test "second task" "second_task dir1 dir2"
 test "third task" "third_task dir1"
 test "fourth task" fourth_task

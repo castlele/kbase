@@ -19,3 +19,7 @@
 
 - [x] [Material theming](https://developer.android.com/codelabs/jetpack-compose-theming#8)
 - [x] [Styling text fields](https://www.youtube.com/watch?v=cIK7ILpApGE)
+
+## CS
+
+- [ ] [algorithms and data structures](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/)

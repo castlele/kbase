@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc3b166a1fc41106",
+        "id": "603ba7eeaf750902",
         "type": "tabs",
         "children": [
           {
-            "id": "9ceb4e652d020ff3",
+            "id": "4fbdafb8a5de86e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/physical_and_virtual_storage.md",
+                "file": "computer_science/dataStructures/hashMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "physical_and_virtual_storage"
+              "title": "hashMap"
             }
           }
         ]
@@ -178,12 +178,16 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "9ceb4e652d020ff3",
+  "active": "4fbdafb8a5de86e5",
   "lastOpenFiles": [
+    "Pasted image 20241028065725.png",
+    "Pasted image 20241028065040.png",
+    "computer_science/dataStructures/hashMap.md",
+    "computer_science/dataStructures/hasMap.md",
+    "MaterialsLog.md",
     "computer_science/physical_and_virtual_storage.md",
     "road_map.canvas",
     "computer_science/data_streams.md",
-    "MaterialsLog.md",
     "Ideas.md",
     "computer_science/HLS.md",
     "CV.md",

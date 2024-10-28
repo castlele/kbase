@@ -11,10 +11,14 @@
             "id": "99c5144e1b78e193",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "computer_science/multithreading/threads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "threads"
             }
           }
         ]
@@ -176,12 +180,17 @@
   },
   "active": "99c5144e1b78e193",
   "lastOpenFiles": [
+    "computer_science/designPatterns/pipeline.md",
+    "computer_science/multithreading/threads.md",
+    "computer_science/designPatterns/worker.md",
+    "root.md",
+    "devops/bash.md",
+    "computer_science/multithreading/threads.mdw",
     "architecture/SOLID.md",
     "games/metal/notes.md",
     "games/metal/metal_notes.md",
     "CV.md",
     "catalog/mifi.md",
-    "root.md",
     "computer_science/cs_refs.md",
     "computer_science/refs.md",
     "computer_science/algorithms/bubleSort.md",
@@ -205,18 +214,13 @@
     "languages/kotlin",
     "road.canvas",
     "2024-09-27.md",
-    "devops/bash.md",
     "devops/practice/logs/tomorrow.log",
     "devops/practice/logs/yesterday.log",
     "devops/practice/unavailable",
     "devops/practice/available",
     "devops/practice/file",
     "devops/practice/logs/today.log",
-    "devops/practice/logs",
-    "devops/bash_practice.md",
-    "devops/practice/bash_practice.md",
     "games/love/Zelda/res/sprites/player/playerSheet.png",
-    "games/love/Zelda/libs/windfield/mlib/README.md",
     "games/love/BatonThePlatformWarrior/res/sprites/player-baton-16x16.png",
     "games/love/BatonThePlatformWarrior/res/sprites/experimental_block.png"
   ]

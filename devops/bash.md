@@ -198,7 +198,7 @@ To manipulate streams there are the following commands:
 	Also, output can be redirected to `null`. This can be useful if we want to catch errors but do not want to handle them: 
 
 	```bash
-	cat file2 2> /dev/nul
+	cat file2 2> /dev/null
 	```
 
 	To redirect output to a certain stream there is a special syntax:

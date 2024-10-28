@@ -11,4 +11,5 @@
 - [[hashMap]]
 
 **Multithreading:**
+- [[threads]]
 - [[Future and Promises]]

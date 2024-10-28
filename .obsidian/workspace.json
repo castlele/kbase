@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "603ba7eeaf750902",
+        "id": "e15bcdf4e64b0b5c",
         "type": "tabs",
         "children": [
           {
-            "id": "4fbdafb8a5de86e5",
+            "id": "99c5144e1b78e193",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/dataStructures/hashMap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hashMap"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -178,11 +174,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4fbdafb8a5de86e5",
+  "active": "99c5144e1b78e193",
   "lastOpenFiles": [
+    "architecture/SOLID.md",
+    "games/metal/notes.md",
+    "games/metal/metal_notes.md",
+    "CV.md",
+    "catalog/mifi.md",
+    "root.md",
+    "computer_science/cs_refs.md",
+    "computer_science/refs.md",
+    "computer_science/algorithms/bubleSort.md",
+    "computer_science/dataStructures/hashMap.md",
     "Pasted image 20241028065725.png",
     "Pasted image 20241028065040.png",
-    "computer_science/dataStructures/hashMap.md",
     "computer_science/dataStructures/hasMap.md",
     "MaterialsLog.md",
     "computer_science/physical_and_virtual_storage.md",
@@ -190,11 +195,9 @@
     "computer_science/data_streams.md",
     "Ideas.md",
     "computer_science/HLS.md",
-    "CV.md",
     "computer_science/multithreading/Future and Promises.md",
     "computer_science/multithreading",
     "devops/raid.md",
-    "catalog/mifi.md",
     "devops/os.md",
     "languages/kotlin/objects.md",
     "catalog",
@@ -214,13 +217,7 @@
     "devops/practice/bash_practice.md",
     "games/love/Zelda/res/sprites/player/playerSheet.png",
     "games/love/Zelda/libs/windfield/mlib/README.md",
-    "games/love/Zelda/libs/windfield/mlib/LICENSE.md",
     "games/love/BatonThePlatformWarrior/res/sprites/player-baton-16x16.png",
-    "games/love/BatonThePlatformWarrior/res/sprites/experimental_block.png",
-    "games/love/BatonThePlatformWarrior/libs/windfield/mlib/README.md",
-    "games/love/BatonThePlatformWarrior/libs/windfield/mlib/LICENSE.md",
-    "computer_science/algorithmsAndDataStructures/algorithms/bubleSort.md",
-    "2024-09-16.md",
-    "architecture/di_dip_loc.md"
+    "games/love/BatonThePlatformWarrior/res/sprites/experimental_block.png"
   ]
 }

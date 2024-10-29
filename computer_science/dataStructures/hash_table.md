@@ -3,6 +3,12 @@ tags:
   - datastructures
   - cs
 ---
+**Hash table** is a data structure which organizes data using **hash functions** in order to support quick search and insertion.
+
+There are tow different kinds of **hash table**:
+- **hash map**: implementation of the map data structure to store key/value pairs
+- **hash set**: implementation of the set data structure to store no repeated values
+
 **Hash map** is a data structure that holds its data in key/value pairs persisting random access to each element.
 
 ![video](https://www.youtube.com/watch?v=h2d9b_nEzoA)
@@ -27,3 +33,28 @@ On the other hand, the *separate chaining* offers a more convenient solution. Wi
 2. Uniformly distributes output across table
 3. Maps similar keys to very different hash values
 4. Uses only very fact operations
+
+## Designing a Hash Table
+
+First of all, the idea of hash function is to map keys to *buckets*. In the example below hash function looks like this: `y = x % 5`.
+
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/02/20/screen-shot-2018-02-19-at-183537.png)
+
+There are two essential factors when designing a hash table.
+
+**Hash Function**
+
+The most important part of every hash table is a hash function.
+
+![](https://assets.leetcode.com/uploads/2024/05/06/hash_functions_table1.png)
+
+Ideally, a perfect hash function will be a one to one mapping between the key and the bucket. However, in most cases there is a tradeoff between *the amount of buckets* and *the capacity of a bucket*.
+
+**Collision Resolution**
+
+In a perfect world, where hash function has a one to one mapping there will be no collisions. Unfortunately, this is not the case.
+
+A collision resolution algorithms should solve the following questions:
+1. How to organize the values in the same bucket?
+2. What if to many values are assigned to the same bucket?
+3. How to search for a target value in a specific bucket?

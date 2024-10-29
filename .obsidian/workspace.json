@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/multithreading/threads.md",
+                "file": "computer_science/dataStructures/hash_table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "threads"
+              "title": "hash_table"
             }
           }
         ]
@@ -180,8 +180,12 @@
   },
   "active": "99c5144e1b78e193",
   "lastOpenFiles": [
-    "computer_science/designPatterns/pipeline.md",
+    "languages/data_streams.md",
+    "computer_science/dataStructures/hashMap.md",
+    "computer_science/dataStructures/hash_table.md",
+    "languages/physical_and_virtual_storage.md",
     "computer_science/multithreading/threads.md",
+    "computer_science/designPatterns/pipeline.md",
     "computer_science/designPatterns/worker.md",
     "root.md",
     "devops/bash.md",
@@ -194,7 +198,6 @@
     "computer_science/cs_refs.md",
     "computer_science/refs.md",
     "computer_science/algorithms/bubleSort.md",
-    "computer_science/dataStructures/hashMap.md",
     "Pasted image 20241028065725.png",
     "Pasted image 20241028065040.png",
     "computer_science/dataStructures/hasMap.md",
@@ -208,12 +211,9 @@
     "computer_science/multithreading",
     "devops/raid.md",
     "devops/os.md",
-    "languages/kotlin/objects.md",
     "catalog",
-    "architecture/DI_frameworks.md",
     "languages/kotlin",
     "road.canvas",
-    "2024-09-27.md",
     "devops/practice/logs/tomorrow.log",
     "devops/practice/logs/yesterday.log",
     "devops/practice/unavailable",

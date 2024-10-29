@@ -19,4 +19,16 @@ Next topic: [[data_streams]]
 
 ## Abstraction of the Virtual Storage
 
-**JVM** uses multiple types of storages: stack and heap.
+**JVM** uses multiple types of storages: stack and heap. If heap becomes overflowing JVM can use virtual memory for temporary memory storage. However, this can decrease performance, because access to the data on the hard drive is much slower than to RAM.
+
+### How RAM works
+
+When process request access to the certain memory space, OS transforms this request from virtual address to the physical address by table of pages.
+
+1. If requested data is stored in RAM access to it occurs straight away.
+2. If there is no data in RAM, **page fault** occurs. OS downloads data from the hard drive into the RAM and transfers control to the process.
+3. If physical data hasn't enough space, OS uses algorithm of page paging to determine what pages can be unloaded from the drive to free up the space on the RAM.
+
+## Buffer in Abstraction of the Virtual Storage
+
+**Buffer** is a temporary memory storage that is used in data transfering and processing.

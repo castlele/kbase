@@ -8,7 +8,7 @@
 - [[strategy]]
 
 **Data Structures:**
-- [[hashMap]]
+- [[hash_table]]
 
 **Multithreading:**
 - [[threads]]

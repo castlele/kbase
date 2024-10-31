@@ -1,0 +1,10 @@
+.gradle
+
+build
+
+# Kotlin Language Server
+kls_database.db
+
+/app/bin
+
+.weatherkey.txt

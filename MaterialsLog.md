@@ -9,6 +9,9 @@
 
 ## Lua
 - [ ] [Programming in Lua, fourth edition](https://www.amazon.com/dp/8590379868)
+- [ ] [lua coroutines](https://www.youtube.com/watch?v=G3NKwhWv8x0)
+- [ ] [lua async/await](https://github.com/ms-jpq/lua-async-await)
+
 # Other materials
 
 ## iOS
@@ -23,3 +26,5 @@
 ## CS
 
 - [ ] [algorithms and data structures](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/)
+- [ ] [multithreading and preemptive multitasking understanding](https://www.youtube.com/watch?v=mpDcIKlD6VE)
+- [ ] [non preemptive and preemptive threads](https://www.cs.princeton.edu/courses/archive/fall08/cos318/lectures/Lec5-ThreadsImplementation.pdf)

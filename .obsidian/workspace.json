@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e15bcdf4e64b0b5c",
+        "id": "38f6aebcc0e6932e",
         "type": "tabs",
         "children": [
           {
-            "id": "99c5144e1b78e193",
+            "id": "e452c393246fdb28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/multithreading/threads.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "threads"
+              "title": "New tab"
             }
           }
         ]
@@ -178,14 +174,18 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "99c5144e1b78e193",
+  "active": "e452c393246fdb28",
   "lastOpenFiles": [
+    "MaterialsLog.md",
+    "computer_science/multithreading/threads.md",
+    "computer_science/multithreading/coroutines/playground.lua",
+    "computer_science/multithreading/coroutines",
+    "computer_science/multithreading/multithreading.md",
     "computer_science/multithreading/pthreads/build/randu",
     "computer_science/multithreading/pthreads/build",
     "computer_science/multithreading/pthreads/Makefile",
     "computer_science/multithreading/pthreads/randu_examples.c",
     "computer_science/multithreading/pthreads",
-    "computer_science/multithreading/threads.md",
     "computer_science/dataStructures/hash_table.md",
     "games/physics/basic_info.md",
     "root.md",
@@ -200,13 +200,11 @@
     "computer_science/oop/di_dip_loc.md",
     "computer_science/oop/SOLID.md",
     "computer_science/oop",
-    "computer_science/architecture",
     "ios/object_relaionships.md",
     "ios/functional_programming.md",
     "ios/di_dip_loc.md",
     "ios/clean_architecture.md",
     "ios/SOLID.md",
-    "ios",
     "computer_science/multithreading/multithreading_problems.md",
     "languages/swift/copyable.md",
     "architecture/ios_architecture_patterns.md",
@@ -214,8 +212,6 @@
     "languages/data_streams.md",
     "computer_science/dataStructures/hashMap.md",
     "languages/physical_and_virtual_storage.md",
-    "computer_science/designPatterns/pipeline.md",
-    "computer_science/multithreading/threads.mdw",
     "Pasted image 20241028065725.png",
     "Pasted image 20241028065040.png",
     "road_map.canvas",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/dataStructures/hash_table.md",
+                "file": "computer_science/multithreading/threads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hash_table"
+              "title": "threads"
             }
           }
         ]
@@ -180,7 +180,13 @@
   },
   "active": "99c5144e1b78e193",
   "lastOpenFiles": [
+    "computer_science/multithreading/pthreads/build/randu",
+    "computer_science/multithreading/pthreads/build",
+    "computer_science/multithreading/pthreads/Makefile",
+    "computer_science/multithreading/pthreads/randu_examples.c",
+    "computer_science/multithreading/pthreads",
     "computer_science/multithreading/threads.md",
+    "computer_science/dataStructures/hash_table.md",
     "games/physics/basic_info.md",
     "root.md",
     "ios/ios_architecture_patterns.md",
@@ -205,21 +211,15 @@
     "languages/swift/copyable.md",
     "architecture/ios_architecture_patterns.md",
     "hashMap.md",
-    "computer_science/dataStructures/hash_table.md",
     "languages/data_streams.md",
     "computer_science/dataStructures/hashMap.md",
     "languages/physical_and_virtual_storage.md",
     "computer_science/designPatterns/pipeline.md",
-    "computer_science/designPatterns/worker.md",
     "computer_science/multithreading/threads.mdw",
     "Pasted image 20241028065725.png",
     "Pasted image 20241028065040.png",
     "road_map.canvas",
-    "computer_science/multithreading",
-    "catalog",
-    "languages/kotlin",
     "road.canvas",
-    "devops/practice/logs/tomorrow.log",
     "games/love/Zelda/res/sprites/player/playerSheet.png",
     "games/love/BatonThePlatformWarrior/res/sprites/player-baton-16x16.png",
     "games/love/BatonThePlatformWarrior/res/sprites/experimental_block.png"

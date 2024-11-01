@@ -38,12 +38,19 @@ In multithreading environment *race condition* can occur if multiple threads try
 
 ## Thread Synchronization Primitives
 
-**Join:**
+**Join:** Collecting of all relevant threads at a logical synchronization point.
 
 **Condition Variables:**
 
+![cv](https://randu.org/tutorials/threads/images/condition_wait.png)
+
 **Barriers:**
+Makes sure that all threads in the barrier will wait until all threads have called the said barrier method.
 
 **Spinlocks:**
+This is a lock that causes thread trying to acquire it to simple wait in a loop while repeatedly checking whether the lock is available. Its advantage is that the waiting thread doesn't go into sleeping mode.
 
 **Semaphores:**
+Semaphores can be binary and counting. Binary can be seen as a regular simple mutex, while counting is like a recursive mutex. Counting semaphores can be initialized to any arbitrary value which should depend on how many resources you have available for that particular shared data. Many threads can obtain the lock simultaneously until the limit is reached. This is referred to a *lock depth*.
+
+Semaphores usually used in multiprocess programming (i.e. it's used as a synch primitive between processes.)

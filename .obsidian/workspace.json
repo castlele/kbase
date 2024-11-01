@@ -11,10 +11,14 @@
             "id": "99c5144e1b78e193",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "computer_science/dataStructures/hash_table.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hash_table"
             }
           }
         ]
@@ -176,6 +180,7 @@
   },
   "active": "99c5144e1b78e193",
   "lastOpenFiles": [
+    "computer_science/multithreading/threads.md",
     "games/physics/basic_info.md",
     "root.md",
     "ios/ios_architecture_patterns.md",
@@ -196,7 +201,6 @@
     "ios/clean_architecture.md",
     "ios/SOLID.md",
     "ios",
-    "computer_science/multithreading/threads.md",
     "computer_science/multithreading/multithreading_problems.md",
     "languages/swift/copyable.md",
     "architecture/ios_architecture_patterns.md",

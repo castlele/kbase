@@ -58,3 +58,11 @@ A collision resolution algorithms should solve the following questions:
 1. How to organize the values in the same bucket?
 2. What if to many values are assigned to the same bucket?
 3. How to search for a target value in a specific bucket?
+
+## The Principle of Build-in Hash Tables
+
+The typical design of built-in hash tables is:
+1. the key can be any `hashable` type. And a value which belongs to a hashable type will have a `hashcode` that will be used in the mapping function to get the index in the bucket.
+2. Each bucket contains an `array` to store all the values in the same bucket initially
+3. If there are too many values in the same bucket, these values will be maintained in a `height-balanced binary search tree` instead
+The average time complexity of both insertion and search is still `O(1)`, however in worst case complexity will be `O(logN)` for both insertion and search by using height-balanced BST.

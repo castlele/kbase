@@ -11,10 +11,14 @@
             "id": "e452c393246fdb28",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "computer_science/multithreading/threads.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "threads"
             }
           }
         ]

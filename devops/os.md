@@ -122,9 +122,9 @@ Files for building:
 PACKAGE_NAME="mypackage"
 
 mkdir -p $PACKAGE_NAME/DEBIAN
-mkdir -p $PACKAGE_NAME1/usr/local/bin
+mkdir -p $PACKAGE_NAME/usr/local/bin
 
-touch $PACKAGE_NAME1/DEBIAN/control
+touch $PACKAGE_NAME/DEBIAN/control
 
 dpkg-deb --build $PACKAGE_NAME
 gpg --gen-key
@@ -163,7 +163,7 @@ Configuration files of DNF for repositories are stored in `/etc/yum.repos.d/` di
 - display information about the package: `dnf info <package_name>`
 - removal of the packages that are stored as dependencies but isn't used no more: `sudo dnf autoremove`
 
-#### `dnf` package creation
+#### `dnf` (`rpm`) package creation
 
 Main steps:
 1. Prepare a structure of the directory
@@ -215,8 +215,8 @@ gpg --gen-key
 gpg --export -a "Name" > RPM-GPG-KEY-$PACKAGE_NAME
 
 # Add the following if needed
-cat "%_signature gpg" >> ~/.rpmmacros
-cat "%_gpg_name Name" >> ~/.rpmmacros
+echo "%_signature gpg" >> ~/.rpmmacros
+echo "%_gpg_name Name" >> ~/.rpmmacros
 
 # Sign existing package
 rpm --addsign ~/rpmbuild/RPMS/architecure/$PACKAGE_NAME-$PACKAGE_VERSION.architecture.rpm
@@ -236,7 +236,7 @@ Summary:       Программа приветствия
 Group:         Testing
 License:       GPL
 URL:           https://git.example.ru/example
-Source0:       %{name}-%{version}.tar.gz
+Source:        %{name}-%{version}.tar.gz
 BuildRequires: /bin/rm, /bin/mkdir, /bin/cp
 Requires:      /bin/bash
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/os.md",
+                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "os"
+              "title": "raid_lvm_practice_report"
             }
           }
         ]
@@ -180,14 +180,14 @@
   },
   "active": "e452c393246fdb28",
   "lastOpenFiles": [
+    "devops/raid.md",
+    "devops/os.md",
     "devops/practice/packages_practice.tar.gz",
     "devops/practice/packages_practice/tryping.deb",
     "devops/practice/packages_practice/countlogs-1.0-1.x86_64.rpm",
     "devops/practice/packages_practice/RPM-GPG-KEY-Nikita-Semenov",
     "devops/practice/packages_practice/DEB-GPG-KEY-Nikita-Semenov",
     "devops/practice/packages_practice",
-    "devops/raid.md",
-    "devops/os.md",
     "computer_science/multithreading/threads.md",
     "MaterialsLog.md",
     "computer_science/multithreading/coroutines/playground.lua",
@@ -195,7 +195,6 @@
     "computer_science/multithreading/multithreading.md",
     "computer_science/multithreading/pthreads/build/randu",
     "computer_science/multithreading/pthreads/build",
-    "computer_science/multithreading/pthreads/Makefile",
     "computer_science/dataStructures/hash_table.md",
     "games/physics/basic_info.md",
     "root.md",

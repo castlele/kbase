@@ -5,6 +5,9 @@ tags:
   - devops
   - RAID
 ---
+
+[[raid_lvm_practice_report]]
+
 **RAID (Redundant Array of Independent Disks)** - a technology of fault-tolerant storage that can combine multiple physical disks in one logical system. Fault-tolerance is an important aspect in securing data and increasing performance of the disk subsystem.
 
 ## RAID Levels of Specification

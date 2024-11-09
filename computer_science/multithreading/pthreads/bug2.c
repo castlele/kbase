@@ -18,9 +18,8 @@ void *Hello(void *threadid)
 {
     double A[ARRAY_SIZE];
     int i;
-    long tid;
+    long tid = (long)threadid;
 
-    tid = (long)threadid;
     sleep(3);
     for (i=0; i<ARRAY_SIZE; i++)
     {
@@ -34,12 +33,11 @@ void *Hello(void *threadid)
 int main(int argc, char *argv[])
 {
     pthread_t threads[NTHREADS];
-    size_t stacksize = sizeof(double) * ARRAY_SIZE * 5;
+    size_t stacksize = sizeof(double) * ARRAY_SIZE * ARRAY_SIZE;
     pthread_attr_t attr;
     int rc;
     long t;
     pthread_attr_init(&attr);
-    // pthread_attr_getstacksize (&attr, &stacksize);
     pthread_attr_setstacksize(&attr, stacksize);
     printf("Thread stack size = %li bytes (hint, hint)\n",stacksize);
     for(t=0;t<NTHREADS;t++){

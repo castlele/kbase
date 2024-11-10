@@ -16,9 +16,7 @@
                 "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "raid_lvm_practice_report"
+              }
             }
           }
         ]
@@ -41,9 +39,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -58,9 +54,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -68,9 +62,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_science/physical_and_virtual_storage.md",
+                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +94,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for physical_and_virtual_storage"
+              }
             }
           },
           {
@@ -113,12 +103,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_science/physical_and_virtual_storage.md",
+                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from physical_and_virtual_storage"
+              }
             }
           },
           {
@@ -129,9 +117,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -140,10 +126,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/physical_and_virtual_storage.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of physical_and_virtual_storage"
+                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md"
+              }
             }
           },
           {
@@ -155,9 +139,7 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              }
             }
           }
         ]
@@ -180,6 +162,17 @@
   },
   "active": "e452c393246fdb28",
   "lastOpenFiles": [
+    "Pasted image 20241110120313.png",
+    "Pasted image 20241110120239.png",
+    "Pasted image 20241110120049.png",
+    "Pasted image 20241110120008.png",
+    "Pasted image 20241110115800.png",
+    "Pasted image 20241110115629.png",
+    "Pasted image 20241110115408.png",
+    "Pasted image 20241110115308.png",
+    "Pasted image 20241109204418.png",
+    "Pasted image 20241109202515.png",
+    "Pasted image 20241109202249.png",
     "devops/raid.md",
     "devops/os.md",
     "devops/practice/packages_practice.tar.gz",
@@ -215,12 +208,7 @@
     "languages/swift/copyable.md",
     "architecture/ios_architecture_patterns.md",
     "hashMap.md",
-    "Pasted image 20241028065725.png",
-    "Pasted image 20241028065040.png",
     "road_map.canvas",
-    "road.canvas",
-    "games/love/Zelda/res/sprites/player/playerSheet.png",
-    "games/love/BatonThePlatformWarrior/res/sprites/player-baton-16x16.png",
-    "games/love/BatonThePlatformWarrior/res/sprites/experimental_block.png"
+    "road.canvas"
   ]
 }

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4131bc9964285574",
+        "id": "72eaf6546c9b0ca0",
         "type": "tabs",
         "children": [
           {
-            "id": "5b2514d95f1341be",
+            "id": "6c9ddecd3a5d05ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "devops/web_services.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "web_services"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -60,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -84,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -101,10 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -115,7 +127,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -123,9 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "devops/practice/raid_lvm/raid_lvm_practice_report.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -137,7 +151,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -158,10 +174,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5b2514d95f1341be",
+  "active": "6c9ddecd3a5d05ba",
   "lastOpenFiles": [
-    "Pasted image 20241110120313.png",
     "Pasted image 20241110120239.png",
+    "devops/web_services.md",
+    "computer_science/multithreading/multithreading.md",
+    "Ideas.md",
+    "root.md",
+    "languages/java/practice/ConsoleForecast/README.md",
+    "Pasted image 20241110120313.png",
     "Pasted image 20241110120049.png",
     "Pasted image 20241110120008.png",
     "Pasted image 20241110115800.png",
@@ -170,7 +191,6 @@
     "Pasted image 20241110115308.png",
     "Pasted image 20241109204418.png",
     "Pasted image 20241109202515.png",
-    "Pasted image 20241109202249.png",
     "MaterialsLog.md",
     "devops/practice/raid_lvm/raid_lvm_practice_report.md",
     "devops/raid.md",
@@ -184,12 +204,10 @@
     "computer_science/multithreading/threads.md",
     "computer_science/multithreading/coroutines/playground.lua",
     "computer_science/multithreading/coroutines",
-    "computer_science/multithreading/multithreading.md",
     "computer_science/multithreading/pthreads/build/randu",
     "computer_science/multithreading/pthreads/build",
     "computer_science/dataStructures/hash_table.md",
     "games/physics/basic_info.md",
-    "root.md",
     "ios/ios_architecture_patterns.md",
     "languages/kotlin/kmp/coroutines/coroutines.md",
     "computer_science/oop/object_relationships.md",
@@ -203,10 +221,6 @@
     "ios/di_dip_loc.md",
     "ios/clean_architecture.md",
     "ios/SOLID.md",
-    "computer_science/multithreading/multithreading_problems.md",
-    "languages/swift/copyable.md",
-    "architecture/ios_architecture_patterns.md",
-    "hashMap.md",
     "road_map.canvas",
     "road.canvas"
   ]

@@ -3,6 +3,7 @@ tags:
   - MIFI
   - devops
   - web
+  - webservers
 ---
 **Web server** is a computer system, which sends web-pages to the clients using HTTP.
 
@@ -83,5 +84,5 @@ Revers-proxy servers get clients' requests and redirect them on other servers fo
 ## Servers Software
 
 - **Apache**: Open source web server. Can be used as static, dynamic and reverse-proxy server
-- **Nginx**: Open source web server with high performance and low resource usage. Main feature of nginx is that it can process high amount of connections. It can process requests asynchronously.
+- **[[nginx]]**: Open source web server with high performance and low resource usage. Main feature of nginx is that it can process high amount of connections. It can process requests asynchronously.
 - **Microsoft IIS**

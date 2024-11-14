@@ -19,13 +19,13 @@ Unfortunately, hash function can return the same index for different elements. T
 
 With *linear probing* new element that hashes to the occupied index it will take the next free slot in the table.
 
-![[Pasted image 20241028065040.png]]
+![[hashfunction.png]]
 
 With linear probing the chance of the repeated collision is significant. This is called **clustering**. Also, insertion and reading is `O(n)`
 
 On the other hand, the *separate chaining* offers a more convenient solution. With this collision resolution method the hash table is actually a table of linked lists. So, every time a collision occurs new element is places to the head of linked list at a constant time. This gives us a time complexity of reading and writing `O(n/k)`, where `n` is the length of the linked list and k is the length of the hash table. Unfortunately, if the size of the hash table is constants the time complexity is still `O(n)`. However, this is still a major improvement in the performance!
 
-![[Pasted image 20241028065725.png]]
+![[collisions.png]]
 
 **Properties of a good hash function:**
 

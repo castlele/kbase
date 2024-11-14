@@ -5,6 +5,8 @@ tags:
   - web
   - webservers
 ---
+[[nginx_apache_report]]
+
 **Web server** is a computer system, which sends web-pages to the clients using HTTP.
 
 Capabilities of the web servers:

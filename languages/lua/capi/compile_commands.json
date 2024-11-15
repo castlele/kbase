@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-arch",
+      "arm64",
+      "-fPIC",
+      "-I/Users/castlelecs/.luaver/lua/5.1/include/",
+      "-o",
+      "test.so",
+      "test.c"
+    ],
+    "directory": "/Users/castlelecs/dev/kbase/languages/lua/capi",
+    "file": "/Users/castlelecs/dev/kbase/languages/lua/capi/test.c",
+    "output": "/Users/castlelecs/dev/kbase/languages/lua/capi/test.so"
+  }
+]

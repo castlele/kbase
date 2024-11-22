@@ -1,4 +1,4 @@
-function count(n)
+local function count(n)
    print("Counting: " .. n)
 
    return n + 1

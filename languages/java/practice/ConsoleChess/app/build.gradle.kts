@@ -21,7 +21,7 @@ java {
 }
 
 application {
-    mainClass = "com.castlelecs.consolecalculator.App"
+    mainClass = "com.castlelecs.consolechess.App"
 }
 
 tasks.jar {

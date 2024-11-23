@@ -5,8 +5,11 @@ import com.castlelecs.consolechess.game.Player;
 
 public class ChessBoard {
 
-    private static int ROWS = 8;
-    private static int COLUMNS = 8;
+    private static char TAB = '\t';
+    private static char NEW_LINE = '\n';
+
+    public static int ROWS = 8;
+    public static int COLUMNS = 8;
 
     private Player currentPlayer;
 
@@ -44,6 +47,44 @@ public class ChessBoard {
         board[startLine][startColumn] = null;
 
         currentPlayer = currentPlayer.toggle();
+
+        return true;
+    }
+
+    public void printBoard() {
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+
+        builder
+            .append("Turn " + currentPlayer)
+            .append(NEW_LINE)
+            .append("\t0\t1\t2\t3\t4\t5\t6\t7");
+
+        for (int i = ROWS - 1; i > -1; i--) {
+            builder.append(i + TAB);
+
+            for (int j = 0; j < COLUMNS; j++) {
+                ChessPiece peice = board[i][j];
+
+                if (peice == null) {
+                    builder.append(".." + TAB);
+                } else {
+                    String colorValue = peice
+                        .getColor()
+                        .name()
+                        .substring(0, 1)
+                        .toLowerCase();
+
+                    builder.append(peice.getSymbol() + colorValue + TAB);
+                }
+            }
+        }
+
+        return builder.toString();
     }
 
     private boolean checkPosition(int rowPos, int columnPos) {

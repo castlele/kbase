@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "72eaf6546c9b0ca0",
+        "id": "9df8b926692e3adc",
         "type": "tabs",
         "children": [
           {
-            "id": "6c9ddecd3a5d05ba",
+            "id": "d94fc5a5f9158ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devops/web_services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "web_services"
+            }
+          },
+          {
+            "id": "ce4669a83bf481fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "nginx_apache_report"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "devops/practice/web_servers/nginx_apache_report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for nginx_apache_report"
             }
           },
           {
@@ -112,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "devops/practice/web_servers/nginx_apache_report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from nginx_apache_report"
             }
           },
           {
@@ -137,9 +154,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "devops/practice/web_servers/nginx_apache_report.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of nginx_apache_report"
             }
           },
           {
@@ -174,47 +193,45 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "6c9ddecd3a5d05ba",
+  "active": "ce4669a83bf481fa",
   "lastOpenFiles": [
-    "devops/practice/web_servers/main.py",
-    "devops/practice/web_servers/bin/flask",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/entry_points.txt",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/WHEEL",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/REQUESTED",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/RECORD",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/METADATA",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/LICENSE.txt",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info/INSTALLER",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask-3.1.0.dist-info",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask/json/__pycache__/__init__.cpython-312.pyc",
-    "devops/practice/web_servers/lib/python3.12/site-packages/flask/sansio/README.md",
-    "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/more.png",
-    "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/less.png",
-    "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/console.png",
-    "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
-    "devops/practice/web_servers/steps.md",
+    "res/apache_server_status_console.png",
+    "res/apache_server_status.png",
+    "apache_server_status.png",
+    "Pasted image 20241125103040.png",
+    "Pasted image 20241125102923.png",
     "devops/web_services.md",
-    "devops/raid.md",
     "devops/practice/raid_lvm/raid_lvm_practice_report.md",
+    "res/hashfunction.png",
+    "res/collisions.png",
+    "res/Pasted image 20241110120313.png",
+    "res/Pasted image 20241110120239.png",
+    "res/Pasted image 20241110120049.png",
+    "res/Pasted image 20241110120008.png",
+    "res",
+    "languages/lua/capi/threadCall.lua",
+    "languages/lua/capi/test.so",
+    "languages/lua/capi/test.c",
+    "languages/lua/capi/pthread.so",
+    "languages/lua/capi/compile_commands.json",
+    "languages/lua/capi/main.lua",
+    "languages/lua/capi/Makefile",
+    "languages/lua/capi",
+    "languages/lua",
+    "languages/java/practice/ConsoleChess/README.md",
+    "devops/practice/web_servers/steps.md",
     "devops/practice/web_servers/nginx_apache_report.md",
-    "devops/practice/web_servers/raid_lvm_practice_report.md",
-    "computer_science/dataStructures/hash_table.md",
+    "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
+    "devops/practice/web_servers/lib/python3.12/site-packages/flask/sansio/README.md",
     "devops/nginx.md",
-    "Pasted image 20241110120239.png",
-    "computer_science/multithreading/multithreading.md",
-    "Ideas.md",
-    "root.md",
-    "languages/java/practice/ConsoleForecast/README.md",
-    "Pasted image 20241110120313.png",
-    "Pasted image 20241110120049.png",
-    "Pasted image 20241110120008.png",
-    "Pasted image 20241110115800.png",
-    "Pasted image 20241110115629.png",
-    "Pasted image 20241110115408.png",
-    "MaterialsLog.md",
+    "devops/raid.md",
     "devops/os.md",
     "computer_science/multithreading/threads.md",
+    "MaterialsLog.md",
+    "computer_science/multithreading/multithreading.md",
+    "computer_science/dataStructures/hash_table.md",
     "games/physics/basic_info.md",
+    "root.md",
     "ios/ios_architecture_patterns.md",
     "languages/kotlin/kmp/coroutines/coroutines.md",
     "computer_science/oop/object_relationships.md",
@@ -222,6 +239,8 @@
     "computer_science/oop/object_relaionships.md",
     "computer_science/functional_programming.md",
     "computer_science/oop/di_dip_loc.md",
+    "computer_science/oop/SOLID.md",
+    "ios/object_relaionships.md",
     "road_map.canvas",
     "road.canvas"
   ]

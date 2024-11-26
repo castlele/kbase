@@ -9,6 +9,7 @@
 
 **Data Structures:**
 - [[hash_table]]
+- [[trees]]
 
 **Multithreading:**
 - [[threads]]

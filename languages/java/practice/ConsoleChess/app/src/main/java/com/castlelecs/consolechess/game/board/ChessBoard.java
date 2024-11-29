@@ -51,6 +51,14 @@ public class ChessBoard {
         return true;
     }
 
+    public boolean castling0() {
+        return false;
+    }
+
+    public boolean castling7() {
+        return false;
+    }
+
     public void printBoard() {
         System.out.println(this);
     }
@@ -62,7 +70,8 @@ public class ChessBoard {
         builder
             .append("Turn " + currentPlayer)
             .append(NEW_LINE)
-            .append("\t0\t1\t2\t3\t4\t5\t6\t7");
+            .append("\t0\t1\t2\t3\t4\t5\t6\t7")
+            .append(NEW_LINE);
 
         for (int i = ROWS - 1; i > -1; i--) {
             builder.append(i + TAB);

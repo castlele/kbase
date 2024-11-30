@@ -6,7 +6,7 @@ import com.castlelecs.consolechess.game.board.ChessBoard;
 public abstract class ChessPiece {
 
     private Player player;
-    private Boolean check = true;
+    public Boolean check = true;
 
     public Player getColor() {
         return player;
@@ -27,37 +27,42 @@ public abstract class ChessPiece {
     );
 
     protected boolean isValidMove(
+        ChessBoard board,
         int startLine,
         int startColumn,
         int endLine,
         int endColumn
     ) {
-        boolean isMoveOutOfBoard = isMoveOutOfBoard(
-            startLine,
-            startColumn,
-            endLine,
-            endColumn
-        );
+        if (isMoveOutOfBoard(endLine, endColumn)) {
+            return false;
+        }
+
         boolean isMoveToTheSamePosition = isMoveToTheSamePosition(
             startLine,
             startColumn,
             endLine,
             endColumn
         );
+        boolean isOccupiedByFriendlyPiece = isOccupiedByFriendlyPiece(
+            board,
+            endLine,
+            endColumn
+        );
 
-        return !isMoveOutOfBoard && !isMoveToTheSamePosition;
+        return !isMoveToTheSamePosition && !isOccupiedByFriendlyPiece;
     }
 
     protected boolean isMoveOutOfBoard(
-        int startLine,
-        int startColumn,
         int endLine,
         int endColumn
     ) {
         int maxLines = ChessBoard.ROWS;
         int maxColumns = ChessBoard.COLUMNS;
 
-        return startLine >= 0 && startColumn >= 0 && endLine < maxLines && endColumn < maxColumns;
+        return endLine >= maxLines
+            || endColumn >= maxColumns
+            || endLine < 0
+            || endColumn < 0;
     }
 
     protected boolean isMoveToTheSamePosition(
@@ -67,5 +72,15 @@ public abstract class ChessPiece {
         int endColumn
     ) {
         return startLine == endLine && startColumn == endColumn;
+    }
+
+    protected boolean isOccupiedByFriendlyPiece(
+        ChessBoard board,
+        int endLine,
+        int endColumn
+    ) {
+        ChessPiece piece = board.board[endLine][endColumn];
+
+        return piece != null && piece.getColor() == getColor();
     }
 }

@@ -22,7 +22,7 @@ public class Queen extends ChessPiece {
         int endLine,
         int endColumn
     ) {
-        if (!isValidMove(startLine, startColumn, endLine, endColumn)) {
+        if (!isValidMove(board, startLine, startColumn, endLine, endColumn)) {
             return false;
         }
 

@@ -22,7 +22,7 @@ public class Pawn extends ChessPiece {
         int endLine,
         int endColumn
     ) {
-        if (!isValidMove(startLine, startColumn, endLine, endColumn)) {
+        if (!isValidMove(board, startLine, startColumn, endLine, endColumn)) {
             return false;
         }
 
@@ -41,7 +41,7 @@ public class Pawn extends ChessPiece {
             case WHITE:
                 return startLine == 1;
             case BLACK:
-                return startLine == ChessBoard.ROWS - 1;
+                return startLine == ChessBoard.ROWS - 2;
             default:
                 return false;
         }
@@ -54,6 +54,6 @@ public class Pawn extends ChessPiece {
     ) {
         ChessPiece enemy = board.board[endLine][endColumn];
 
-        return enemy != null;
+        return enemy != null && enemy.getColor() == getColor().toggle();
     }
 }

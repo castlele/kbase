@@ -22,7 +22,7 @@ public class Horse extends ChessPiece {
         int endLine,
         int endColumn
     ) {
-        if (!isValidMove(startLine, startColumn, endLine, endColumn)) {
+        if (!isValidMove(board, startLine, startColumn, endLine, endColumn)) {
             return false;
         }
 
@@ -33,6 +33,6 @@ public class Horse extends ChessPiece {
     }
 
     private boolean isValidMoveShape(int dx, int dy) {
-        return (dx >= 2 && dy >= 1) || (dx >= 1 && dy >= 2);
+        return (dx == 2 && dy == 1) || (dx == 1 && dy == 2);
     }
 }

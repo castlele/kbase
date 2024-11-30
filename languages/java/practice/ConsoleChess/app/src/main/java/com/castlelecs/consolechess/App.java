@@ -4,56 +4,18 @@ import java.util.Scanner;
 
 import com.castlelecs.consolechess.game.Player;
 import com.castlelecs.consolechess.game.board.ChessBoard;
-import com.castlelecs.consolechess.game.pieces.Bishop;
-import com.castlelecs.consolechess.game.pieces.Horse;
-import com.castlelecs.consolechess.game.pieces.King;
-import com.castlelecs.consolechess.game.pieces.Pawn;
-import com.castlelecs.consolechess.game.pieces.Queen;
-import com.castlelecs.consolechess.game.pieces.Rook;
 
 public class App {
 
     public static ChessBoard buildBoard() {
         ChessBoard board = new ChessBoard(Player.WHITE);
 
-        board.board[0][0] = new Rook(Player.WHITE);
-        board.board[0][1] = new Horse(Player.WHITE);
-        board.board[0][2] = new Bishop(Player.WHITE);
-        board.board[0][3] = new Queen(Player.WHITE);
-        board.board[0][4] = new King(Player.WHITE);
-        board.board[0][5] = new Bishop(Player.WHITE);
-        board.board[0][6] = new Horse(Player.WHITE);
-        board.board[0][7] = new Rook(Player.WHITE);
-        board.board[1][0] = new Pawn(Player.WHITE);
-        board.board[1][1] = new Pawn(Player.WHITE);
-        board.board[1][2] = new Pawn(Player.WHITE);
-        board.board[1][3] = new Pawn(Player.WHITE);
-        board.board[1][4] = new Pawn(Player.WHITE);
-        board.board[1][5] = new Pawn(Player.WHITE);
-        board.board[1][6] = new Pawn(Player.WHITE);
-        board.board[1][7] = new Pawn(Player.WHITE);
+        board.initializePieces();
 
-        board.board[7][0] = new Rook(Player.BLACK);
-        board.board[7][1] = new Horse(Player.BLACK);
-        board.board[7][2] = new Bishop(Player.BLACK);
-        board.board[7][3] = new Queen(Player.BLACK);
-        board.board[7][4] = new King(Player.BLACK);
-        board.board[7][5] = new Bishop(Player.BLACK);
-        board.board[7][6] = new Horse(Player.BLACK);
-        board.board[7][7] = new Rook(Player.BLACK);
-        board.board[6][0] = new Pawn(Player.BLACK);
-        board.board[6][1] = new Pawn(Player.BLACK);
-        board.board[6][2] = new Pawn(Player.BLACK);
-        board.board[6][3] = new Pawn(Player.BLACK);
-        board.board[6][4] = new Pawn(Player.BLACK);
-        board.board[6][5] = new Pawn(Player.BLACK);
-        board.board[6][6] = new Pawn(Player.BLACK);
-        board.board[6][7] = new Pawn(Player.BLACK);
         return board;
     }
 
     public static void main(String[] args) {
-
         ChessBoard board = buildBoard();
         Scanner scanner = new Scanner(System.in);
         System.out.println("""
@@ -94,15 +56,21 @@ public class App {
                         int column = Integer.parseInt(a[2]);
                         int toLine = Integer.parseInt(a[3]);
                         int toColumn = Integer.parseInt(a[4]);
+                        System.out.println("Moving from: (" + line + ", " + column + "); to: (" + toLine + ", " + toColumn + ")");
                         if (board.moveToPosition(line, column, toLine, toColumn)) {
                             System.out.println("Успешно передвинулись");
                             board.printBoard();
                         } else System.out.println("Передвижение не удалось");
                     } catch (Exception e) {
-                        System.out.println("Вы что-то ввели не так, попробуйте ещё раз");
+                        System.out.println("Вы что-то ввели не так, попробуйте ещё раз: " + e);
                     }
 
                 }
+            }
+
+            if (board.isGameOver()) {
+                System.out.println("GG!");
+                System.out.println("The winner is: " + board.getWinner());
             }
         }
     }

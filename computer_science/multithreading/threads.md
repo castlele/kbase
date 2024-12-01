@@ -1,10 +1,9 @@
 ---
 tags:
   - multithreading
-  - threads
-  - pthreads
   - cs
-  - mutex
+  - multithreading/threads
+  - multithreading/synchronization
 ---
 [article](https://randu.org/tutorials/threads/)
 

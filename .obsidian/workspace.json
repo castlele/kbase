@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9df8b926692e3adc",
+        "id": "3f885bf0590d3e01",
         "type": "tabs",
         "children": [
           {
-            "id": "d94fc5a5f9158ae9",
+            "id": "cd4d810139a8b679",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/web_services.md",
+                "file": "ios/interview_plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "web_services"
-            }
-          },
-          {
-            "id": "ce4669a83bf481fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devops/practice/web_servers/nginx_apache_report.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "nginx_apache_report"
+              "title": "interview_plan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "singleton",
+                "query": "tag:#multithreading",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,22 +62,12 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "52a6052cd9edaca7",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 230.50043487548828,
     "collapsed": true
   },
   "right": {
@@ -100,67 +75,40 @@
     "type": "split",
     "children": [
       {
-        "id": "c750acf2e8ffaede",
+        "id": "6858eb8f58093009",
         "type": "tabs",
         "children": [
-          {
-            "id": "0c44d338d874c66b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "devops/practice/web_servers/nginx_apache_report.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for nginx_apache_report"
-            }
-          },
-          {
-            "id": "0bcbf799dcaa7a39",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "devops/practice/web_servers/nginx_apache_report.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from nginx_apache_report"
-            }
-          },
-          {
-            "id": "dd1a2fe699f91c8b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
           {
             "id": "9d4a0e93af6f04aa",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/practice/web_servers/nginx_apache_report.md"
+                "file": "ios/interview_plan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of nginx_apache_report"
+              "title": "Outline of interview_plan"
             }
           },
+          {
+            "id": "ac4592af03549e93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      },
+      {
+        "id": "27f00551efd5d624",
+        "type": "tabs",
+        "children": [
           {
             "id": "88c4a5f9848f39c6",
             "type": "leaf",
@@ -174,61 +122,77 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "e0dac9a79621043c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ce4669a83bf481fa",
+  "active": "cd4d810139a8b679",
   "lastOpenFiles": [
+    "computer_science/multithreading/threads.md",
+    "computer_science/multithreading/multithreading_problems.md",
+    "computer_science/multithreading/multithreading.md",
+    "languages/objc/protocols/protocols.md",
+    "ios/interview_plan.md",
+    "road_map.canvas",
+    "Untitled.canvas",
+    "2024-12-01.md",
+    "Untitled Kanban.md",
+    "languages/objc/protocols/protocols",
+    "languages/objc/protocols/compile_commands.events.json",
+    "languages/objc/protocols/PrintableObject.h",
+    "languages/objc/protocols/ConsoleLogger.m",
+    "languages/objc/protocols/ConsoleLogger.h",
+    "languages/objc/protocols/PrinterProtocol.h",
+    "devops/web_services.md",
+    "MaterialsLog.md",
+    "devops/practice/web_servers/nginx_apache_report.md",
     "res/apache_server_status_console.png",
     "res/apache_server_status.png",
     "apache_server_status.png",
     "Pasted image 20241125103040.png",
     "Pasted image 20241125102923.png",
-    "devops/web_services.md",
     "devops/practice/raid_lvm/raid_lvm_practice_report.md",
     "res/hashfunction.png",
     "res/collisions.png",
     "res/Pasted image 20241110120313.png",
     "res/Pasted image 20241110120239.png",
     "res/Pasted image 20241110120049.png",
-    "res/Pasted image 20241110120008.png",
     "res",
     "languages/lua/capi/threadCall.lua",
     "languages/lua/capi/test.so",
     "languages/lua/capi/test.c",
-    "languages/lua/capi/pthread.so",
-    "languages/lua/capi/compile_commands.json",
-    "languages/lua/capi/main.lua",
-    "languages/lua/capi/Makefile",
-    "languages/lua/capi",
-    "languages/lua",
     "languages/java/practice/ConsoleChess/README.md",
     "devops/practice/web_servers/steps.md",
-    "devops/practice/web_servers/nginx_apache_report.md",
     "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "devops/practice/web_servers/lib/python3.12/site-packages/flask/sansio/README.md",
     "devops/nginx.md",
     "devops/raid.md",
     "devops/os.md",
-    "computer_science/multithreading/threads.md",
-    "MaterialsLog.md",
-    "computer_science/multithreading/multithreading.md",
     "computer_science/dataStructures/hash_table.md",
     "games/physics/basic_info.md",
     "root.md",
@@ -237,11 +201,6 @@
     "computer_science/oop/object_relationships.md",
     "computer_science/clean_architecture.md",
     "computer_science/oop/object_relaionships.md",
-    "computer_science/functional_programming.md",
-    "computer_science/oop/di_dip_loc.md",
-    "computer_science/oop/SOLID.md",
-    "ios/object_relaionships.md",
-    "road_map.canvas",
     "road.canvas"
   ]
 }

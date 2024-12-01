@@ -1,9 +1,7 @@
 ---
 tags:
-  - multithreading
-  - threads
-  - pthreads
   - cs
+  - multithreading/problems
 ---
 
 ## Deadlock

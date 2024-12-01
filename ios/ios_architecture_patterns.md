@@ -1,3 +1,8 @@
+---
+tags:
+  - ios/uiarchitecture
+---
+
 # iOS Architecture patterns
 
 Questions:

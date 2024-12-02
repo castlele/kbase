@@ -73,8 +73,41 @@ In multithreading environment *race condition* can occur if multiple threads try
 **Join:** Collecting of all relevant threads at a logical synchronization point.
 
 **Condition Variables:**
+Usually used with mutexes. Conditional variables allow thread to synchronize based upon the actual value of data (thread waits until the condition is met). *`Wait` function also unlocks the corresponding mutex.*
 
-![cv](https://randu.org/tutorials/threads/images/condition_wait.png)
+```c
+// Thread 1 (Waiting)
+void *doSomeWork()
+{
+    pthread_mutex_lock(&count_mutex);
+    while (count < COUNT_LIMIT) {
+        pthread_cond_wait(&count_threshold_cv, &count_mutex);
+    }
+
+	/* Do some work */
+
+    pthread_mutex_unlock(&count_mutex);
+
+	/* Do some other work */
+}
+
+
+// Thread 2 (Signaling)
+void *doAnotherWork()
+{
+	pthread_mutex_lock(&count_mutex);
+
+	if (count == COUNT_LIMIT) {
+		pthread_cond_signal(&count_threshold_cv);
+	}
+
+	/* Do some work */
+
+	pthread_mutex_unlock(&count_mutex);
+
+	/* Do some other work */
+}
+```
 
 **Barriers:**
 Makes sure that all threads in the barrier will wait until all threads have called the said barrier method.

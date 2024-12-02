@@ -4,6 +4,10 @@
 
 ## Swift
 
+### Copyable Types
+
+![[copyable]]
+
 ## Objective-C
 - [25+ questions](https://coderpad.io/interview-questions/objective-c-interview-questions/)
 - [27 questions](https://www.fullstack.cafe/blog/objective-c-interview-questions)

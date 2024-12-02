@@ -26,7 +26,13 @@
 
 ## CS
 
+- [x] [posix threads](https://hpc-tutorials.llnl.gov/posix/)
+- [x] [randu threads](https://randu.org/tutorials/threads/)
 - [ ] [algorithms and data structures](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/)
 - [ ] [multithreading and preemptive multitasking understanding](https://www.youtube.com/watch?v=mpDcIKlD6VE)
 - [ ] [non preemptive and preemptive threads](https://www.cs.princeton.edu/courses/archive/fall08/cos318/lectures/Lec5-ThreadsImplementation.pdf)
 - [ ] [coroutines](https://www.youtube.com/watch?v=8sEe-4tig_A)
+- [ ] "Pthreads Programming". B. Nichols et al. O'Reilly and Associates.
+- [ ] "Threads Primer". B. Lewis and D. Berg. Prentice Hall
+- [ ] "Programming With POSIX Threads". D. Butenhof. Addison Wesley
+- [ ] "Programming With Threads". S. Kleiman et al. Prentice Hall

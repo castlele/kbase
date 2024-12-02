@@ -13,3 +13,9 @@
 3. @dynamic property
 4. properties declared in `@protocol` or category
 5. overriden properties
+
+## Difference between atomic and nonatomic synthesized properties
+
+**Atomic** properties ensures that value is set to the property before giving access to other thread
+
+**Nonatomic** properties on the other han are faster, but don't give this kind of synchronization between threads.

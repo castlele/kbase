@@ -16,6 +16,6 @@
 
 ## Difference between atomic and nonatomic synthesized properties
 
-**Atomic** properties ensures that value is set to the property before giving access to other thread
+**Atomic** properties ensures synchronization to prevent data races on setters and getters.
 
-**Nonatomic** properties on the other han are faster, but don't give this kind of synchronization between threads.
+**Nonatomic** properties on the other hand are faster, but don't give this kind of synchronization between threads.

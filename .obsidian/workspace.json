@@ -77,6 +77,16 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "04cd3ac4218f6781",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
         ]
       }
@@ -115,6 +125,39 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "c7f1ebdc76c65a2e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "languages/objc/objc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for objc"
+            }
+          },
+          {
+            "id": "488b7dde70814ac0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "languages/objc/objc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from objc"
             }
           }
         ]
@@ -167,17 +210,18 @@
   },
   "active": "5cb4fc1634868bf3",
   "lastOpenFiles": [
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/Relocations/aarch64/atomicnonatomic.yml",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/Relocations/aarch64",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/DWARF/atomicnonatomic",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/Relocations",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/DWARF",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Info.plist",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents",
+    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM",
+    "languages/objc/atomic_nonatomic/atomicnonatomic",
+    "languages/objc/atomic_nonatomic/main.m",
     "languages/objc/category/category.md",
-    "languages/objc/category/category.dSYM/Contents/Resources/Relocations/aarch64/category.yml",
-    "languages/objc/category/category.dSYM/Contents/Resources/Relocations/aarch64",
-    "languages/objc/category/category.dSYM/Contents/Resources/DWARF/category",
-    "languages/objc/category/category.dSYM/Contents/Resources/Relocations",
-    "languages/objc/category/category.dSYM/Contents/Resources/DWARF",
-    "languages/objc/category/category.dSYM/Contents/Resources",
-    "languages/objc/category/category.dSYM/Contents/Info.plist",
-    "languages/objc/category/category.dSYM/Contents",
-    "languages/objc/category/category.dSYM",
-    "languages/objc/category/category",
     "languages/objc/objc.md",
     "ios/interview_plan.md",
     "Untitled.md",

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "languages/objc/objc.md",
+                "file": "computer_science/dataStructures/trees/trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "objc"
+              "title": "trees"
             }
           }
         ],
@@ -79,7 +79,7 @@
             }
           },
           {
-            "id": "04cd3ac4218f6781",
+            "id": "b78e8500370f9237",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50043487548828
+    "width": 230.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "75ff9a8d2812c2a0",
@@ -108,10 +109,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "languages/objc/objc.md"
+                "file": "computer_science/dataStructures/trees/trees.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of objc"
+              "title": "Outline of trees"
             }
           },
           {
@@ -128,12 +129,12 @@
             }
           },
           {
-            "id": "c7f1ebdc76c65a2e",
+            "id": "c346abf890d4bc95",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "languages/objc/objc.md",
+                "file": "computer_science/dataStructures/trees/trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,24 +144,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for objc"
+              "title": "Backlinks for trees"
             }
           },
           {
-            "id": "488b7dde70814ac0",
+            "id": "2bcc6ec5c2857a14",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "languages/objc/objc.md",
+                "file": "computer_science/dataStructures/trees/trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from objc"
+              "title": "Outgoing links from trees"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "27f00551efd5d624",
@@ -194,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,20 +213,21 @@
   },
   "active": "5cb4fc1634868bf3",
   "lastOpenFiles": [
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/Relocations/aarch64/atomicnonatomic.yml",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/Relocations/aarch64",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/DWARF/atomicnonatomic",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/Relocations",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources/DWARF",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Resources",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents/Info.plist",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM/Contents",
-    "languages/objc/atomic_nonatomic/atomicnonatomic.dSYM",
-    "languages/objc/atomic_nonatomic/atomicnonatomic",
     "languages/objc/atomic_nonatomic/main.m",
-    "languages/objc/category/category.md",
-    "languages/objc/objc.md",
+    "languages/objc/atomic_nonatomic/Makefile",
+    "languages/objc/atomic_nonatomic",
+    "computer_science/algorithms/bubleSort.md",
     "ios/interview_plan.md",
+    "languages/objc/objc.md",
+    "languages/objc/category/category.md",
+    "languages/objc/category/category.dSYM/Contents/Resources/Relocations/aarch64/category.yml",
+    "languages/objc/category/category.dSYM/Contents/Resources/Relocations/aarch64",
+    "languages/objc/category/category.dSYM/Contents/Resources/DWARF/category",
+    "languages/objc/category/category.dSYM/Contents/Resources/Relocations",
+    "languages/objc/category/category.dSYM/Contents/Resources/DWARF",
+    "languages/objc/category/category.dSYM/Contents/Resources",
+    "languages/objc/category/category.dSYM/Contents/Info.plist",
+    "languages/objc/category/category.dSYM/Contents",
     "Untitled.md",
     "ios/ios_architecture_patterns.md",
     "computer_science/multithreading/multithreading_problems.md",
@@ -257,7 +261,6 @@
     "devops/raid.md",
     "devops/os.md",
     "computer_science/dataStructures/hash_table.md",
-    "games/physics/basic_info.md",
     "road.canvas"
   ]
 }

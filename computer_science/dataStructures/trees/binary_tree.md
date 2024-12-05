@@ -12,6 +12,17 @@ In unbalanced state bst's insertion and searching has `O(n)` time complexity.
 
 ### Traversing
 
+**DFS** (Depth-First search): explores a path all the way down to the leaf before backtracking and exploring another path.
+
+![[DFS.png]]
+The result for this algorithm will be 1–2–3–4–5–6–7
+
+Types of **DFS**:
 - Inorder: `left` then `root` then `right`
 - Preorder: `root` then `left` then `right`
 - Postorder: `left` then `right` then `root`
+
+**BFS** (Breadth-First search): explores the tree level by level.
+
+![[BFS.png]]
+So we traverse level by level. In this example, the result is 1–2–5–3–4–6–7

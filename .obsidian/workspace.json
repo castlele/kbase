@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/dataStructures/trees/binary_tree.md",
+                "file": "devops/k8s.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "binary_tree"
+              "title": "k8s"
             }
           }
         ],
@@ -213,6 +213,11 @@
   },
   "active": "20ba8f06b624808a",
   "lastOpenFiles": [
+    "res/k8s_nodes.png",
+    "k8s_nodes.png",
+    "Pasted image 20241209070324.png",
+    "computer_science/dataStructures/trees/binary_tree.md",
+    "devops/k8s.md",
     "res/BFS.png",
     "BFS.png",
     "Pasted image 20241205092009.png",
@@ -223,8 +228,6 @@
     "ios/interview_plan.md",
     "res/nginx_server_status_browser.png",
     "res/nginx_server_status.png",
-    "res/apache_server_status_browser.png",
-    "res/apache_server_https_status.png",
     "languages/objc/objc.md",
     "languages/objc/atomic_nonatomic/main.m",
     "languages/objc/atomic_nonatomic/Makefile",
@@ -243,7 +246,6 @@
     "computer_science/multithreading/multithreading_problems.md",
     "MaterialsLog.md",
     "computer_science/multithreading/threads.md",
-    "res/apache_server_status_console.png",
     "root.md",
     "computer_science/multithreading/multithreading.md",
     "languages/objc/protocols/protocols.md",
@@ -259,8 +261,6 @@
     "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "devops/practice/web_servers/lib/python3.12/site-packages/flask/sansio/README.md",
     "devops/nginx.md",
-    "devops/raid.md",
-    "devops/os.md",
     "road.canvas"
   ]
 }

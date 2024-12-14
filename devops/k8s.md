@@ -18,11 +18,12 @@ tags:
 
 ### Software Components
 
-**Containers**
+**Containers** are a self-contained environment where applications are executed.
 
-**Pods**
+**Pods** are groups of containers deployed together on the same host. Pods provide two different types of shared resources: networking and storage.
 
-**Deployment**
+**Deployment** is a set of identical pods. It runs multiple replicas of the application and if in case an instance fails, deployment replaces those instances. Pods can't be launched on a cluster directly, instead, they are managed by one more layer of abstraction.
 
-**Ingress**
+**Ingress** is a collection of routing rules that decide how the external services access the services running inside k8s clusters. Ingress provides load balancing, SSL termination and name-based virtual hosting.
 
+![[k8s_architecture.png]]

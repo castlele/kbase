@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5af5b39afcce974",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_science/dataStructures/trees/trees.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "trees"
-            }
-          },
-          {
             "id": "20ba8f06b624808a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/practice/web_servers/nginx_apache_report.md",
+                "file": "computer_science/uuid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nginx_apache_report"
+              "title": "uuid"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,20 +198,22 @@
   },
   "active": "20ba8f06b624808a",
   "lastOpenFiles": [
+    "res/uuid_version.png",
+    "res/uuid_variation.png",
+    "uuid_variation.png",
+    "Pasted image 20241214084632.png",
+    "res/uuid-version.png",
+    "uuid-version.png",
+    "Pasted image 20241214083749.png",
+    "computer_science/dataStructures/trees/trees.md",
+    "computer_science/uuid.md",
+    "devops/practice/web_servers/nginx_apache_report.md",
     "res/nginx_modsec_sql_injection_rule_test.png",
     "nginx_modsec_sql_injection_rule_test.png",
     "Pasted image 20241210101616.png",
     "res/nginx_curl_test.png",
-    "nginx_curl_test.png",
-    "Pasted image 20241210101446.png",
-    "res/modsec_main_config.png",
-    "modsec_main_config.png",
-    "Pasted image 20241210101056.png",
-    "res/nginx_server_https_status.png",
-    "nginx_server_https_status.png",
     "devops/k8s.md",
     "computer_science/dataStructures/trees/binary_tree.md",
-    "computer_science/dataStructures/trees/trees.md",
     "ios/interview_plan.md",
     "languages/objc/objc.md",
     "languages/objc/atomic_nonatomic/main.m",
@@ -254,13 +241,11 @@
     "2024-12-01.md",
     "Untitled Kanban.md",
     "devops/web_services.md",
-    "devops/practice/web_servers/nginx_apache_report.md",
     "devops/practice/raid_lvm/raid_lvm_practice_report.md",
     "languages/java/practice/ConsoleChess/README.md",
     "devops/practice/web_servers/steps.md",
     "devops/practice/web_servers/lib/python3.12/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "devops/practice/web_servers/lib/python3.12/site-packages/flask/sansio/README.md",
-    "devops/nginx.md",
     "road.canvas"
   ]
 }

@@ -4,21 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "826b29492c1aa4c5",
+        "id": "17a8c5dbf86d59f4",
         "type": "tabs",
         "children": [
           {
-            "id": "4aeb42492a3b7d85",
+            "id": "38b6a7d84f8cbab1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "notes/materials_log.md",
-                "mode": "source",
-                "source": false
+                "file": "notes/2025/idp.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    true,
+                    true
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "materials_log"
+              "icon": "lucide-trello",
+              "title": "idp"
             }
           }
         ]
@@ -196,12 +202,30 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4aeb42492a3b7d85",
+  "active": "38b6a7d84f8cbab1",
   "lastOpenFiles": [
+    "notes/toughts.md",
+    "notes/2025/idp.md",
+    "games/2025/idp.md",
+    "notes/2025/goals.canvas",
+    "devops/2025/idp.md",
+    "entrepreneurship/2025/idp.md",
+    "road_map.canvas",
+    "idp.md",
+    "notes/2025",
+    "notes/goals.canvas",
+    "notes/ideas.canvas",
+    "games/2025",
+    "entrepreneurship/2025",
+    "entrepreneurship",
+    "notes/joy.md",
+    "devops/2025",
+    "Untitled.md",
+    "notes/ideas.md",
+    "2024-12-22.md",
+    "notes/materials_log.md",
     "notes/2024/idp_results.md",
     "notes/2024",
-    "notes/joy.md",
-    "notes/materials_log.md",
     "notes/alco.md",
     "MaterialsLog.md",
     "computer_science/algorithms/patterns.md",
@@ -226,26 +250,9 @@
     "uuid-version.png",
     "Pasted image 20241214083749.png",
     "computer_science/dataStructures/trees/trees.md",
-    "devops/practice/web_servers/nginx_apache_report.md",
-    "computer_science/dataStructures/trees/binary_tree.md",
-    "ios/interview_plan.md",
-    "languages/objc/objc.md",
     "languages/objc/atomic_nonatomic/main.m",
     "languages/objc/atomic_nonatomic/Makefile",
     "languages/objc/atomic_nonatomic",
-    "languages/objc/category/category.md",
-    "languages/objc/category/category.dSYM/Contents/Resources/Relocations/aarch64/category.yml",
-    "languages/objc/category/category.dSYM/Contents/Resources/Relocations/aarch64",
-    "languages/objc/category/category.dSYM/Contents/Resources/DWARF/category",
-    "languages/objc/category/category.dSYM/Contents/Resources/Relocations",
-    "languages/objc/category/category.dSYM/Contents/Resources/DWARF",
-    "Untitled.md",
-    "ios/ios_architecture_patterns.md",
-    "computer_science/multithreading/multithreading_problems.md",
-    "computer_science/multithreading/threads.md",
-    "root.md",
-    "road_map.canvas",
-    "Untitled.canvas",
     "road.canvas"
   ]
 }

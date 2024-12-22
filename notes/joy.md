@@ -21,6 +21,9 @@
 # Articles
 - [ ] [Samurai philosophy in IT](https://www.vegaitglobal.com/media-center/knowledge-base/how-to-use-miyamoto-musashi-s-philosophy-to-become-a-better-software-crafter)
 
+# Podcasts
+- [ ] [A Roadmap for Today's Entrepreneurs](https://hbr.org/podcast/2024/04/a-roadmap-for-todays-entrepreneurs) by Harvard university
+
 # YouTube
 ## Programming
 - [ ] [Swift creator interview](https://www.youtube.com/watch?v=ovYbgbrQ-v8)

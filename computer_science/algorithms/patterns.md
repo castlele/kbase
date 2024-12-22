@@ -1,0 +1,29 @@
+---
+tags:
+    - cs/algo
+---
+
+- [ ] [Метод скользящего окна](https://wiki.loginom.ru/articles/windowing-method.html)
+- [ ] [Метод двух указателей](https://wcademy.ru/two-pointers-method/)
+- [ ] [Нахождение цикла](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%86%D0%B8%D0%BA%D0%BB%D0%B0)
+- [ ] [Интервальное слияние](https://russianblogs.com/article/6952876644/)
+- [ ] [Цикличная сортировка](http://algolab.valemak.com/cycle)
+- [ ] [In-place Reversal для LinkedList](https://emre.me/coding-patterns/in-place-reversal-of-a-linked-list/#:~:text=%3E%201%20%2D%3E%20NULL-,In%2DPlace%20Reversal%20Solution,previous%20will%20point%20to%20null%20)
+- [ ] [Поиск в ширину](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B2_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D1%83)
+- [ ] [Поиск в глубину](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B2_%D0%B3%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D1%83)
+- [ ] [Двоичная куча](https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D1%87%D0%B0)
+- [ ] [Подмножества](https://ru.hexlet.io/blog/posts/teoriya-mnozhestv-osnovy-i-bazovye-operatsii-nad-mnozhestvami?utm_source=hexlet&utm_medium=blog&utm_campaign=hexlet-blog&utm_content=grokaem-algoritmy-gayd-po-algoritmam-dlya-teh-komu-slozhno-reshat-zadachi&utm_term=post_150322)
+- [ ] [Усовершенствованный бинарный поиск](https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA)
+- [ ] [Побитовое исключающее ИЛИ](https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F#%D0%9F%D0%BE%D0%B1%D0%B8%D1%82%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D1%8E%D1%89%D0%B5%D0%B5_%D0%98%D0%9B%D0%98)
+- [ ] [Top K Elements](https://levelup.gitconnected.com/patterns-for-coding-interviews-top-k-elements-1a1368c4cbf0#:~:text=The%20top%20K%20elements%20pattern,K%20elements%20problems%20is%20heap)
+- [ ] [K-образное слияние](https://ru.hexlet.io/blog/posts/grokaem-algoritmy-gayd-po-algoritmam-dlya-teh-komu-slozhno-reshat-zadachi#:~:text=Top%20K%20Elements-,K%2D%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5,-%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%20%D0%BE%20%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA%D0%B5)
+- [ ] [Задача о рюкзаке 0-1](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA%D0%B5#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA%D0%B5_0-1)
+- [ ] [Задача о неограниченном рюкзаке](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA%D0%B5#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE_%D0%BD%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA%D0%B5)
+- [ ] [Числа Фибоначчи](https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%A4%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8)
+- [ ] [Наибольшая последовательность-палиндром](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B5%D0%B9%D1%88%D0%B5%D0%B9_%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8-%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0)
+- [ ] [Наибольшая общая подстрока](https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F_%D0%BE%D0%B1%D1%89%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0)
+- [ ] [Топологическая сортировка](https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0)
+- [ ] [Чтение префиксного дерева](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%84%D0%B8%D0%BA%D1%81%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE)
+- [ ] [Задача: количество островов в матрице](https://www.youtube.com/watch?v=F1K-UILAfZ0)
+- [ ] [Метод проб и ошибок](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%BF%D1%80%D0%BE%D0%B1_%D0%B8_%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA)
+- [ ] [Система непересекающихся множеств](https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BD%D0%B5%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D0%B5%D0%BA%D0%B0%D1%8E%D1%89%D0%B8%D1%85%D1%81%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2)

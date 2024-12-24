@@ -11,20 +11,14 @@
             "id": "38b6a7d84f8cbab1",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "notes/2025/idp.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    true,
-                    true
-                  ]
-                }
+                "file": "devops/practice/docker/docker_practice_report.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "idp"
+              "icon": "lucide-file",
+              "title": "docker_practice_report"
             }
           }
         ]
@@ -204,8 +198,22 @@
   },
   "active": "38b6a7d84f8cbab1",
   "lastOpenFiles": [
-    "notes/toughts.md",
+    "devops/practice/docker/main.go",
+    "devops/practice/docker/app/main.go",
+    "devops/practice/docker/app",
+    "res/docker_go_app_result_practice.png",
+    "docker_go_app_result_practice.png",
+    "Pasted image 20241224143542.png",
+    "res/available_docker_conteiners_practice.png",
+    "available_docker_conteiners_practice.png",
+    "Pasted image 20241224143411.png",
+    "res/docker_container_running_practice.png",
+    "docker_container_running_practice.png",
+    "Pasted image 20241224143141.png",
+    "devops/ci_cd.md",
+    "devops/practice/docker",
     "notes/2025/idp.md",
+    "notes/toughts.md",
     "games/2025/idp.md",
     "notes/2025/goals.canvas",
     "devops/2025/idp.md",
@@ -239,20 +247,7 @@
     "notes",
     "devops/k8s.md",
     "res/k8s_architecture.png",
-    "k8s_architecture.png",
-    "Pasted image 20241214125642.png",
     "computer_science/uuid.md",
-    "res/uuid_version.png",
-    "res/uuid_variation.png",
-    "uuid_variation.png",
-    "Pasted image 20241214084632.png",
-    "res/uuid-version.png",
-    "uuid-version.png",
-    "Pasted image 20241214083749.png",
-    "computer_science/dataStructures/trees/trees.md",
-    "languages/objc/atomic_nonatomic/main.m",
-    "languages/objc/atomic_nonatomic/Makefile",
-    "languages/objc/atomic_nonatomic",
     "road.canvas"
   ]
 }

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "17a8c5dbf86d59f4",
+        "id": "08f98c2645f98055",
         "type": "tabs",
         "children": [
           {
-            "id": "38b6a7d84f8cbab1",
+            "id": "39d13731b5426ffb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/practice/docker/docker_practice_report.md",
-                "mode": "source",
+                "file": "notes/joy.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docker_practice_report"
+              "title": "joy"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#multithreading",
+                "query": "tag:#gamedev",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50043487548828,
-    "collapsed": true
+    "width": 230.50043487548828
   },
   "right": {
     "id": "75ff9a8d2812c2a0",
@@ -196,8 +195,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "38b6a7d84f8cbab1",
+  "active": "39d13731b5426ffb",
   "lastOpenFiles": [
+    "notes/2025/idp.md",
+    "notes/2025/goals.canvas",
+    "notes/windows_notes.md",
+    "notes/toughts.md",
+    "notes/macos_notes.md",
+    "notes/materials_log.md",
+    "notes/linux_notes.md",
+    "notes/joy.md",
+    "notes/CV.md",
+    "notes/cs2.md",
+    "notes/2024/idp_results.md",
+    "devops/practice/docker/docker_practice_report.md",
     "devops/practice/docker/main.go",
     "devops/practice/docker/app/main.go",
     "devops/practice/docker/app",
@@ -212,10 +223,7 @@
     "Pasted image 20241224143141.png",
     "devops/ci_cd.md",
     "devops/practice/docker",
-    "notes/2025/idp.md",
-    "notes/toughts.md",
     "games/2025/idp.md",
-    "notes/2025/goals.canvas",
     "devops/2025/idp.md",
     "entrepreneurship/2025/idp.md",
     "road_map.canvas",
@@ -226,28 +234,18 @@
     "games/2025",
     "entrepreneurship/2025",
     "entrepreneurship",
-    "notes/joy.md",
     "devops/2025",
     "Untitled.md",
     "notes/ideas.md",
     "2024-12-22.md",
-    "notes/materials_log.md",
-    "notes/2024/idp_results.md",
     "notes/2024",
     "notes/alco.md",
     "MaterialsLog.md",
     "computer_science/algorithms/patterns.md",
     "computer_science/algorithms/bubleSort.md",
-    "notes/CV.md",
     "notes/MaterialsLog.md",
-    "notes/windows_notes.md",
-    "notes/cs2.md",
-    "notes/macos_notes.md",
-    "notes/linux_notes.md",
-    "notes",
     "devops/k8s.md",
     "res/k8s_architecture.png",
-    "computer_science/uuid.md",
     "road.canvas"
   ]
 }

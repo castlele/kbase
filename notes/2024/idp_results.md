@@ -3,9 +3,8 @@ tags:
   - idp
   - 2024
 ---
-
 1. Long term hard to measure goals/tasks got low level of priority and erased from the daily schedule
-2. Small goals/tasks work perfectly giving real implact
+2. Small goals/tasks work perfectly giving real impact
 3. Creating gantt is too expensive
 4. A lot of fan in the IDP. This is good because I'm usually interested but bad cause it took too much attention
 5. DevOps tasks got too much connections with uni. This causes dissonance in me, lowering the motivation

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/practice/github_actions/github_actions_practice_report.md",
+                "file": "notes/toughts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "github_actions_practice_report"
+              "title": "toughts"
             }
           }
         ]
@@ -198,13 +198,13 @@
   },
   "active": "39d13731b5426ffb",
   "lastOpenFiles": [
-    "notes/joy.md",
-    "devops/practice/github_actions/github_actions_practice_report.md",
-    "devops/practice/github_actions",
     "notes/2025/idp.md",
+    "notes/toughts.md",
+    "devops/practice/github_actions/github_actions_practice_report.md",
+    "notes/joy.md",
+    "devops/practice/github_actions",
     "notes/2025/goals.canvas",
     "notes/windows_notes.md",
-    "notes/toughts.md",
     "notes/macos_notes.md",
     "notes/materials_log.md",
     "notes/linux_notes.md",

@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## Tasks
 
-- [ ] Research leadership tasks #entrepreneurship @{2024-12-31}
 - [ ] Research communications tasks #entrepreneurship @{2024-12-31}
 - [ ] Research "Goal setting" tasks #entrepreneurship @{2024-12-31}
 - [ ] Read Karnegi #entrepreneurship @{2025-01-31}
@@ -18,6 +17,7 @@ kanban-plugin: board
 
 - [ ] Book about stoicism #softskills @{2025-01-15}
 - [ ] LovePlayer project #petproject @{2025-01-18}
+- [ ] Research leadership tasks #entrepreneurship @{2024-12-31}
 
 
 ## Done

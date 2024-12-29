@@ -1,0 +1,15 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Installing Apache
+  apt:
+    name: apache2
+    state: present
+  become: yes
+
+# nginx is using 80 port, so it is mandatory to change port for apache
+- name: Setup Port for Apache2
+  replace:
+    path: /etc/apache2/ports.conf
+    regexp: "Listen 80"
+    replace: "Listen 3000"
+  become: yes

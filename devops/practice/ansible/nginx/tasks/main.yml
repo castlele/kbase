@@ -1,0 +1,7 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Installing nginx
+  apt:
+    name: nginx
+    state: present
+  become: yes

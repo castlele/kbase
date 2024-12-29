@@ -1,0 +1,6 @@
+---
+- name: SETUP
+  hosts: web
+  roles:
+    - role: nginx
+    - role: apache

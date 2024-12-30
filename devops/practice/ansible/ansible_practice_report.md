@@ -15,3 +15,10 @@
 
 Настройка apache по пути `apache/tasks/main.yml`:
 ![[ansible_apache_task_setup.png]]
+
+Запускаю `playbook`:
+![[ansible_run_playbook.png]]
+
+Проверяю через браузер:
+![[ansible_test_nginx.png]]
+![[ansible_test_apache.png]]

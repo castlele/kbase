@@ -11,6 +11,7 @@ kanban-plugin: board
 - [ ] Read Karnegi #entrepreneurship @{2025-01-31}
 - [ ] Research OS tasks #devops @{2024-12-31}
 - [ ] Finish game design book #gamedev @{2025-02-15}
+- [ ] Create navigation in kbase from anywhere in neovim #other @{2025-01-04}
 
 
 ## In Progress

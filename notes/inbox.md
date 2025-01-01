@@ -16,6 +16,8 @@
 
 - try to learn Danya how to write tests (lets make a local workshop)
 
+- Rom's history is interesting
+
 > [!Business analysis]
 > 
 > The essence of every process is getting result from the resources you've got

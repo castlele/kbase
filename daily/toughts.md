@@ -1,7 +1,6 @@
 ---
-  tags:
+tags:
   - thoughts
-  - random
 ---
 # 27.10.2024
 

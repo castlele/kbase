@@ -18,6 +18,7 @@
 # Anime
 - [x] [Реинкарнация безработного](https://studioband.net/3962-reinkarnacija-bezrabotnogo-2-sezon-2-chast.html)
 - [ ] [Бармен: Бокал бога](https://animego.me/anime/barmen-bokal-boga-2558)
+- [ ] [оглянись](https://animego.online/4984-ogljanis.html) (enable vpn LULW)
 
 # Articles
 - [ ] [Samurai philosophy in IT](https://www.vegaitglobal.com/media-center/knowledge-base/how-to-use-miyamoto-musashi-s-philosophy-to-become-a-better-software-crafter)
@@ -32,3 +33,4 @@
 - [x] [Аркадий Иванов интервью](https://youtu.be/1gikLvGHS_w)
 - [ ] [thread anatomy](https://t.me/headOfMobile/104)
 - [ ] [Интервью с разработчицей из Apple](https://boosty.to/lionbond/posts/a2efec2a-9ba8-4ae5-bbdb-47f649ed2e3e?share=post_link)
+- [ ] [from jun to middle](https://www.youtube.com/watch?v=FIPljd8KuYU)

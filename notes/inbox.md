@@ -11,6 +11,11 @@
 - there is a need to create templates for notes
 - 00- notes is a good idea to adopt
 
+- try to reimagine workflow with windows and redesign menubar with [vid](https://www.youtube.com/watch?v=5nwnJjr5eOo)
+- think about book from this [vid](https://www.youtube.com/watch?v=T1kC-dy-Bs4&t=416s)
+
+- try to learn Danya how to write tests (lets make a local workshop)
+
 > [!Business analysis]
 > 
 > The essence of every process is getting result from the resources you've got

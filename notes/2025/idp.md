@@ -6,24 +6,24 @@ kanban-plugin: board
 
 ## Tasks
 
-- [ ] Research communications tasks #entrepreneurship @{2024-12-31}
-- [ ] Research "Goal setting" tasks #entrepreneurship @{2024-12-31}
-- [ ] Read Karnegi #entrepreneurship @{2025-01-31}
-- [ ] Research OS tasks #devops @{2024-12-31}
-- [ ] Finish game design book #gamedev @{2025-02-15}
-- [ ] Create navigation in kbase from anywhere in neovim #other @{2025-01-04}
+- [ ] Research OS tasks #devops @{18-01-2025}
+- [ ] Read Karnegi #entrepreneurship @{28-02-2025}
+- [ ] Finish game design book #gamedev @{28-02-2025}
 
 
 ## In Progress
 
-- [ ] Book about stoicism #softskills @{2025-01-15}
-- [ ] LovePlayer project #petproject @{2025-01-18}
-- [ ] Research leadership tasks #entrepreneurship @{2024-12-31}
+- [ ] Book about stoicism #softskills @{18-01-2025}
+- [ ] LovePlayer project #petproject @{18-01-2025}
+- [ ] Research leadership tasks #entrepreneurship @{18-01-2025}
+- [ ] Research communications tasks #entrepreneurship @{18-01-2025}
+- [ ] Research "Goal setting" tasks #entrepreneurship @{18-01-2025}
 
 
 ## Done
 
 - [ ] Create a design document and a plan of development for love2dvlc project #petproject @{2024-12-23}
+- [ ] Create navigation in kbase from anywhere in neovim #other
 
 
 

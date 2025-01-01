@@ -1,0 +1,2 @@
+- [[entrepreneurship/2025/idp|2025 IDP]] 
+- [[leadership_skills]]

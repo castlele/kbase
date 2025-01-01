@@ -4,21 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "7ef804ea106aff0a",
+        "id": "a511aa9e265e5320",
         "type": "tabs",
         "children": [
           {
-            "id": "ee9c362251f65d87",
+            "id": "edd590388903faa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/ci_cd.md",
+                "file": "entrepreneurship/emotional_aperture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ci_cd"
+              "title": "emotional_aperture"
+            }
+          },
+          {
+            "id": "e7d98a1f49992312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "entrepreneurship/empathy_tought.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "empathy_tought"
+            }
+          },
+          {
+            "id": "67969748f9be592d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "entrepreneurship/leadership_skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "leadership_skills"
             }
           }
         ]
@@ -52,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#gamedev",
+                "query": "tag:#entrepreneurship",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50043487548828
+    "width": 230.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "75ff9a8d2812c2a0",
@@ -93,10 +122,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_science/dataStructures/trees/binary_tree.md"
+                "file": "entrepreneurship/emotional_aperture.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of binary_tree"
+              "title": "Outline of emotional_aperture"
             }
           },
           {
@@ -159,10 +188,10 @@
             "id": "975e31cb013efd62",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -174,9 +203,19 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "8e9cd65830772d6c",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "27f00551efd5d624",
@@ -211,7 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
+    "width": 431.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -227,14 +266,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ee9c362251f65d87",
+  "active": "edd590388903faa6",
   "lastOpenFiles": [
+    "entrepreneurship/empathy_tought.md",
+    "entrepreneurship/leadership_skills.md",
+    "notes/2025/idp.md",
+    "entrepreneurship/emotional_aperture.md",
+    "english/dictionary.md",
+    "entrepreneurship/2025/idp.md",
+    "templates/tought_template.md",
+    "notes/inbox.md",
+    "english",
+    "daily/toughts.md",
+    "entrepreneurship/00-Entrepreneurship.md",
+    "templates/inbox_template.md",
+    "templates",
+    "inbox_tamplate.md",
+    "tamplates/Untitled.md",
+    "daily/01-01-2025.md",
+    "notes/2025/goals.canvas",
+    "tamplates/daily.md",
+    "tamplates",
     "devops/ci_cd.md",
     "2025-01-05.md",
-    "notes/inbox.md",
-    "daily/toughts.md",
     "daily",
-    "notes/2025/idp.md",
     "notes/2024/road_map.canvas",
     "root.md",
     "devops/practice/k8s/k8s_practice_report.md",
@@ -256,29 +311,13 @@
     "devops/practice/ansible/apache/tests/inventory",
     "devops/practice/ansible/apache/vars/main.yml",
     "devops/practice/ansible/apache/tasks/main.yml",
-    "devops/practice/ansible/apache/meta/main.yml",
-    "devops/practice/ansible/apache/handlers/main.yml",
-    "devops/practice/ansible/apache/defaults/main.yml",
     "devops/practice/ansible/apache/README.md",
     "devops/practice/github_actions/github_actions_practice_report.md",
     "notes/joy.md",
-    "notes/2025/goals.canvas",
     "notes/windows_notes.md",
     "notes/macos_notes.md",
-    "notes/materials_log.md",
-    "notes/linux_notes.md",
-    "notes/CV.md",
-    "notes/cs2.md",
-    "notes/2024/idp_results.md",
-    "devops/practice/docker/docker_practice_report.md",
-    "games/2025/idp.md",
-    "devops/2025/idp.md",
-    "entrepreneurship/2025/idp.md",
-    "idp.md",
     "notes/goals.canvas",
     "notes/ideas.canvas",
-    "notes/ideas.md",
-    "2024-12-22.md",
     "road.canvas"
   ]
 }

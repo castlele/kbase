@@ -1,6 +1,10 @@
 [
-  "obsidian-plugin-toc",
   "obsidian-kanban",
   "obsidian-relative-line-numbers",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-annotator",
+  "obsidian-paste-image-rename",
+  "calendar",
+  "graph-analysis",
+  "obsidian-spaced-repetition"
 ]

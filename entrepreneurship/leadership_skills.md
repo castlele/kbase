@@ -1,6 +1,9 @@
 ---
 tags:
   - inbox
+sr-due: 2025-01-05
+sr-interval: 3
+sr-ease: 250
 ---
 ## Notes
 
@@ -21,4 +24,6 @@ Good leader is:
 ## See also
 - [[empathy_tought]]
 - [[emotional_aperture]]
+- [[adaptive_communication]]
+- [[flexible_thinking]]
 - [HBR podcast](https://hbr.org/2024/10/6-essential-leadership-skills-and-how-to-develop-them)

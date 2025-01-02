@@ -10,6 +10,7 @@ Moreover, it is very important not only to understand the collective mood, but a
 
 ---
 ## See also
+- [[how_to_develop_emotional_aperture]]
 - [source](https://hbr.org/2024/10/6-essential-leadership-skills-and-how-to-develop-them)
 
 ## Continue learning

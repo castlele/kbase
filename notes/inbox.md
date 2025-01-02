@@ -1,3 +1,4 @@
+- after I finish love player project. I must make conclusions about love2d as a game dev tool and if it will satisfy my needs, I have to create a ui lib from this project with all tech debt fixes
 - zattelkasten principles:
 	- notes should be atomic
 	- notes should be self contained
@@ -19,7 +20,8 @@
 - Rom's history is interesting
 
 - To live life right you have to understand world's nature (and your place in it) and human's nature
-- 
+
+- It is a good idea to go through all "watch later" vids
 
 > [!Business analysis]
 > 

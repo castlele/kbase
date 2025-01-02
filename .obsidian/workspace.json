@@ -4,81 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a511aa9e265e5320",
+        "id": "48b1163853f10df3",
         "type": "tabs",
         "children": [
           {
-            "id": "67969748f9be592d",
+            "id": "ce71b63f05485432",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "entrepreneurship/leadership_skills.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "leadership_skills"
-            }
-          },
-          {
-            "id": "a6a792b2661f522c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "entrepreneurship/flexible_thinking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "flexible_thinking"
-            }
-          },
-          {
-            "id": "e61a71bcec79ec74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "entrepreneurship/develop_flexible_thinking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "develop_flexible_thinking"
-            }
-          },
-          {
-            "id": "c9712de87516820e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "entrepreneurship/adaptive_communication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "adaptive_communication"
-            }
-          },
-          {
-            "id": "4b6b87f4dbde9a43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "entrepreneurship/develop_adaptive_communication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "develop_adaptive_communication"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -328,19 +267,20 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e61a71bcec79ec74",
+  "active": "ce71b63f05485432",
   "lastOpenFiles": [
-    "entrepreneurship/flexible_thinking.md",
-    "entrepreneurship/develop_flexible_thinking.md",
-    "entrepreneurship/leadership_skills.md",
-    "entrepreneurship/adaptive_communication.md",
+    "daily/02-01-2025.md",
     "entrepreneurship/develop_adaptive_communication.md",
+    "entrepreneurship/adaptive_communication.md",
+    "entrepreneurship/leadership_skills.md",
+    "entrepreneurship/flexible_thinking.md",
+    "templates/tought_template.md",
+    "entrepreneurship/develop_flexible_thinking.md",
     "entrepreneurship/how_to_develop_emotional_aperture.md",
     "entrepreneurship/emotional_aperture.md",
     "devops/practice/k8s/k8s_practice_report.md",
     "notes/joy.md",
     "notes/inbox.md",
-    "daily/02-01-2025.md",
     "entrepreneurship/empathy_tought.md",
     "res/uuid_variation.png",
     "res/uuid_version.png",
@@ -358,7 +298,6 @@
     "notes/2025/idp.md",
     "english/dictionary.md",
     "entrepreneurship/2025/idp.md",
-    "templates/tought_template.md",
     "daily/toughts.md",
     "entrepreneurship/00-Entrepreneurship.md",
     "templates/inbox_template.md",

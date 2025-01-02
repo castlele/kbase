@@ -18,6 +18,9 @@
 
 - Rom's history is interesting
 
+- To live life right you have to understand world's nature (and your place in it) and human's nature
+- 
+
 > [!Business analysis]
 > 
 > The essence of every process is getting result from the resources you've got

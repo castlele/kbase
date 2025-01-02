@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "entrepreneurship/emotional_aperture.md",
-                "mode": "preview",
+                "file": "notes/inbox.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "emotional_aperture"
+              "title": "inbox"
             }
           }
         ]
@@ -182,6 +182,16 @@
         "id": "5fdbc27bbe3f88f7",
         "type": "leaf",
         "state": {
+          "type": "empty",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "New tab"
+        }
+      },
+      {
+        "id": "0fda25a4bc5232b3",
+        "type": "leaf",
+        "state": {
           "type": "graph-analysis",
           "state": {},
           "icon": "GA-ICON",
@@ -206,9 +216,10 @@
   },
   "active": "e72c1cdcb06bb126",
   "lastOpenFiles": [
+    "daily/01-01-2025.md",
+    "entrepreneurship/emotional_aperture.md",
     "entrepreneurship/leadership_skills.md",
     "entrepreneurship/00-Entrepreneurship.md",
-    "daily/01-01-2025.md",
     "notes/2025/idp.md",
     "notes/inbox.md",
     "road_map.canvas",

@@ -13,13 +13,100 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/inbox.md",
+                "file": "notes/materials_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "inbox"
-            }
+              "title": "materials_log"
+            },
+            "group": "4423325db3197d65"
+          }
+        ]
+      },
+      {
+        "id": "8c025522772e9c9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2896e9ba55b25d8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "notes/materials_log.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 5,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 2.1026546147774177,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            },
+            "group": "4423325db3197d65"
+          }
+        ]
+      },
+      {
+        "id": "832238cb50948f55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74a4a6000b846b21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/materials_log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "materials_log"
+            },
+            "group": "4423325db3197d65"
+          }
+        ]
+      },
+      {
+        "id": "f56a79f25987d7b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e38f58e3debabaa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/materials_log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "materials_log"
+            },
+            "group": "4423325db3197d65"
           }
         ]
       }
@@ -48,7 +135,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:apt",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -109,7 +196,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "entrepreneurship/emotional_aperture.md",
+            "file": "notes/00-cs2.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -192,6 +279,26 @@
         "id": "0fda25a4bc5232b3",
         "type": "leaf",
         "state": {
+          "type": "empty",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "New tab"
+        }
+      },
+      {
+        "id": "5e0e5e0021927118",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "New tab"
+        }
+      },
+      {
+        "id": "6aa7af3409aaf7e3",
+        "type": "leaf",
+        "state": {
           "type": "graph-analysis",
           "state": {},
           "icon": "GA-ICON",
@@ -216,12 +323,26 @@
   },
   "active": "e72c1cdcb06bb126",
   "lastOpenFiles": [
+    "notes/inbox.md",
+    "notes/materials_log.md",
+    "notes/00-Cookbook.md",
+    "notes/00-Note_taking.md",
+    "entrepreneurship/00-Entrepreneurship.md",
+    "notes/zattelkasten_principles.md",
+    "notes/daily_notes.md",
+    "notes/00-cs2.md",
+    "notes/CV.md",
+    "notes/cs2_dust2.md",
+    "daily/03-01-2025.md",
+    "notes/cs2_inferno.md",
+    "notes/cs2_mirage.md",
+    "notes/cs2_train.md",
+    "notes/cs2_troubleshooting.md",
+    "notes/alco_restor.md",
     "daily/01-01-2025.md",
     "entrepreneurship/emotional_aperture.md",
     "entrepreneurship/leadership_skills.md",
-    "entrepreneurship/00-Entrepreneurship.md",
     "notes/2025/idp.md",
-    "notes/inbox.md",
     "road_map.canvas",
     "ios/interview_plan.md",
     "languages/objc/objc.md",
@@ -229,14 +350,8 @@
     "languages/java/java.md",
     "Untitled.md",
     "CV.md",
-    "computer_science/multithreading/Future and Promises.md",
     "computer_science/multithreading",
-    "computer_science/HLS.md",
-    "MaterialsLog.md",
-    "devops/raid.md",
-    "devops/bash.md",
     "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. éßÑ, þÔ« ¡Òª¡« »Ó«úÓá¼¼¿ßÔÒ ¿ ÓáºÓáí«Ôþ¿¬Ò [2018] é½áñßÔ«¡ öÑÓÓÑ®Óá ö¿½«.pdf",
-    "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. æÑÔ¿, ¬Ó¿»Ô«úÓáõ¿´ ¿ data science [2022] ö¿½«,  Å¿¬ÔÑÔ.epub",
-    "kmp/coroutines/coroutines.md"
+    "ÆÑ«ÓÑÔ¿þÑß¬¿® ¼¿¡¿¼Ò¼ »« Computer Science. æÑÔ¿, ¬Ó¿»Ô«úÓáõ¿´ ¿ data science [2022] ö¿½«,  Å¿¬ÔÑÔ.epub"
   ]
 }

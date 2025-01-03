@@ -64,6 +64,7 @@
 - [ ] [smart brevity](https://admiredleadership.com/book-summaries/smart-brevity/)
 
 ## Others
+- [ ] как быть стоиком Массимо Пильюччи
 - [ ] [privacy policy generator](https://termly.io/products/privacy-policy-generator/)
 - [ ] [entrepreneurship for developers](https://mobiusconf.com/talks/4940782cae63492680a5c3dd223ec4b4)
 - [ ] [local AI installation](https://www.youtube.com/shorts/NQ31k5Huq9E)

@@ -1,0 +1,2 @@
+- [[daily_notes]]
+- [[zattelkasten_principles]]

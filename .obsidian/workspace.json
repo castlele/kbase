@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "48b1163853f10df3",
+        "id": "87882d39d6853e70",
         "type": "tabs",
         "children": [
           {
-            "id": "ce71b63f05485432",
+            "id": "06c00fc1cf1d7a89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/inbox.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "inbox"
             }
           }
         ]
@@ -209,6 +213,36 @@
             "id": "e1c8f0b08f635cc7",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "724100a932431d99",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "7e18cc510927c819",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "841ad19d72883a00",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -216,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 13
       },
       {
         "id": "27f00551efd5d624",
@@ -267,8 +301,18 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ce71b63f05485432",
+  "active": "06c00fc1cf1d7a89",
   "lastOpenFiles": [
+    "software_engineering/00-Tests.md",
+    "notes/inbox.md",
+    "software_engineering",
+    "philosophy/00-Stoicism.md",
+    "notes/daily_notes.md",
+    "notes/00-Note_taking.md",
+    "philosophy",
+    "daily/03-01-2025.md",
+    "notes/zattelkasten_principles.md",
+    "notes/joy.md",
     "daily/02-01-2025.md",
     "entrepreneurship/develop_adaptive_communication.md",
     "entrepreneurship/adaptive_communication.md",
@@ -279,8 +323,6 @@
     "entrepreneurship/how_to_develop_emotional_aperture.md",
     "entrepreneurship/emotional_aperture.md",
     "devops/practice/k8s/k8s_practice_report.md",
-    "notes/joy.md",
-    "notes/inbox.md",
     "entrepreneurship/empathy_tought.md",
     "res/uuid_variation.png",
     "res/uuid_version.png",
@@ -293,8 +335,6 @@
     "Guided Wim Hof Method Breathing [tybOi4hjZFQ].f616.mp4",
     "Guided Wim Hof Method Breathing [tybOi4hjZFQ].f616.mp4.part-Frag121.part",
     "Guided Wim Hof Method Breathing [tybOi4hjZFQ].f616.mp4.part-Frag120.part",
-    "Guided Wim Hof Method Breathing [tybOi4hjZFQ].f616.mp4.part-Frag119.part",
-    "Guided Wim Hof Method Breathing [tybOi4hjZFQ].f616.mp4.part-Frag118.part",
     "notes/2025/idp.md",
     "english/dictionary.md",
     "entrepreneurship/2025/idp.md",
@@ -302,14 +342,8 @@
     "entrepreneurship/00-Entrepreneurship.md",
     "templates/inbox_template.md",
     "inbox_tamplate.md",
-    "tamplates/Untitled.md",
-    "daily/01-01-2025.md",
     "notes/2025/goals.canvas",
-    "tamplates/daily.md",
-    "devops/ci_cd.md",
-    "2025-01-05.md",
     "notes/2024/road_map.canvas",
-    "root.md",
     "res/k8s_practice_report.png",
     "resk8s_practice_report_test_img.png",
     "res/k8s_gitlab_env.png",

@@ -26,4 +26,5 @@ Good leader is:
 - [[emotional_aperture]]
 - [[adaptive_communication]]
 - [[flexible_thinking]]
+- [[perspective]]
 - [HBR podcast](https://hbr.org/2024/10/6-essential-leadership-skills-and-how-to-develop-them)
